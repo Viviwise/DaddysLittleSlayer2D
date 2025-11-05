@@ -87,6 +87,11 @@ public class BattleSystem : MonoBehaviour
             state = BattleState.PLAYERTURN;
             PlayerTurn();
         }
+
+        if (ennemyUnit.currentPV <= ennemyUnit.maxPV / 2)
+        {
+            ennemyUnit.damage += 3;
+        } 
         
     }
     
@@ -102,7 +107,7 @@ public class BattleSystem : MonoBehaviour
             dialogueText.text = "Tu as été dévoré par un " + ennemyUnit.unitName;
         }
     }
-
+    
     void PlayerTurn()
     {
         dialogueText.text = "Choisis une action";
