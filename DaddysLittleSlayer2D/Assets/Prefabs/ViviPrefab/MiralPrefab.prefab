@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 650702001472833544}
   - component: {fileID: -4182317760803078322}
   m_Layer: 0
-  m_Name: MonsterPrefab
+  m_Name: MiralPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
