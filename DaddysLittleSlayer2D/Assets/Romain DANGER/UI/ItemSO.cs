@@ -29,7 +29,7 @@ public class ItemSO : ScriptableObject
 
         if (statToChange == StatToChange.strength)
         {
-            if (unit.currentPV == unit.maxPV)
+            if (unit.damage == unit.damage)
             {
                 return false;
             }
