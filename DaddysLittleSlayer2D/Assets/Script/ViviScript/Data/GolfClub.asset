@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b065143015f4e5844a788e77dc3b807b, type: 3}
-  m_Name: PhoenixEmbryo
+  m_Name: GolfClub
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
-  itemName: Embryon de Phoenix
-  itemType: 1
+  itemName: Club de golf
+  itemType: 0
   attack1:
-    attackName: 
-    damage: 0
+    attackName: Bonk
+    damage: 2
     damageMyself: 0
   attack2:
-    attackName: 
-    damage: 0
-    damageMyself: 0
-  healAmount: 5
+    attackName: Coup droit
+    damage: 3
+    damageMyself: 1
+  healAmount: 0

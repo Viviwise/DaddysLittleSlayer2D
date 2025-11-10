@@ -10,14 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b065143015f4e5844a788e77dc3b807b, type: 3}
-  m_Name: Epee
+  m_Name: BoneSaw
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
-  itemName: "Ep\xE9e"
+  itemName: "Scie \xE0 os"
   itemType: 0
   attack1:
-    attackName: Pik-Pik
+    attackName: Casse-os
     damage: 2
+    damageMyself: 0
   attack2:
-    attackName: Shlass
-    damage: 3
+    attackName: "M\xE9moire des os"
+    damage: 5
+    damageMyself: 2
   healAmount: 0

@@ -33,7 +33,14 @@ public class BattleSystem : MonoBehaviour
     public Button attack1Button;
     public Button attack2Button;
     
-
+    // bool pour l'animator
+    private bool monsterIsAttacking;
+    private bool monsterIsHurted;
+    
+    private bool playerIsAttacking;
+    private bool playerIsHealing;
+    private bool playerIsHurted;
+    
     void Start()
     {
         healButton.gameObject.SetActive(false);
@@ -51,11 +58,11 @@ public class BattleSystem : MonoBehaviour
         playerUnit = playerGO.GetComponent<Unit>();
 
         GameObject ennemyGO = Instantiate(ennemyPrefab, ennemyBattleStation);
-        ennemyUnit = ennemyGO.GetComponent<Unit>();
+        ennemyUnit = ennemyGO.GetComponent<Unit>(); 
 
         EquipWeaponFromLoadout();
 
-        dialogueText.text = "Un terrible " + ennemyUnit.unitName + " approche !";
+        dialogueText.text = "Un terrible " + ennemyUnit.unitName + " veut vous croquez !";
 
         playerHUD.SetHUD(playerUnit);
         ennemyHUD.SetHUD(ennemyUnit);
@@ -98,7 +105,8 @@ public class BattleSystem : MonoBehaviour
 
         TextMeshProUGUI attack1Text = attack1Button.GetComponentInChildren<TextMeshProUGUI>();
         TextMeshProUGUI attack2Text = attack2Button.GetComponentInChildren<TextMeshProUGUI>();
-
+        
+        
         if (weapon.attack1 != null)
             attack1Text.text = weapon.attack1.attackName + " " + weapon.attack1.damage;
 
@@ -117,18 +125,24 @@ public class BattleSystem : MonoBehaviour
     }
     
 
-    IEnumerator PlayerAttack(int damage)
+    IEnumerator PlayerAttack(int damage, int damageMyself)
     {
+        playerIsAttacking =  true;
+        
         attack1Button.gameObject.SetActive(false);
         attack2Button.gameObject.SetActive(false);
         healButton.gameObject.SetActive(false);
 
         bool isDead = ennemyUnit.TakeDamage(damage);
+        playerUnit.TakeDamage(damageMyself);
 
         ennemyHUD.SetPV(ennemyUnit.currentPV);
+        playerHUD.SetPV(playerUnit.currentPV);
         dialogueText.text = "Attaque réussie !";
 
         yield return new WaitForSeconds(1.5f);
+
+        monsterIsHurted = true;
 
         if (isDead)
         {
@@ -146,7 +160,7 @@ public class BattleSystem : MonoBehaviour
         if (state != BattleState.PLAYERTURN) return;
 
         if (playerUnit.equippedItem != null && playerUnit.equippedItem.attack1 != null)
-            StartCoroutine(PlayerAttack(playerUnit.equippedItem.attack1.damage));
+            StartCoroutine(PlayerAttack(playerUnit.equippedItem.attack1.damage, playerUnit.equippedItem.attack1.damageMyself));
     }
 
     public void OnAttack2Button()
@@ -154,14 +168,14 @@ public class BattleSystem : MonoBehaviour
         if (state != BattleState.PLAYERTURN) return;
 
         if (playerUnit.equippedItem != null && playerUnit.equippedItem.attack2 != null)
-            StartCoroutine(PlayerAttack(playerUnit.equippedItem.attack2.damage));
+            StartCoroutine(PlayerAttack(playerUnit.equippedItem.attack2.damage, playerUnit.equippedItem.attack2.damageMyself));
     }
-
     
 
     public void OnHealButton()
     {
         if (state != BattleState.PLAYERTURN) return;
+        
 
         ItemData healItem = null;
         int healIndex = -1; // pour retirer l'objet après utiliser
@@ -190,9 +204,10 @@ public class BattleSystem : MonoBehaviour
         }
     }
     
-    
     IEnumerator PlayerHeal(ItemData healItem)
-    {
+    {      
+        playerIsHealing = true;
+        
         playerUnit.Heal(healItem.healAmount);
 
         playerHUD.SetPV(playerUnit.currentPV);
@@ -208,10 +223,12 @@ public class BattleSystem : MonoBehaviour
     }
     
     
-
     IEnumerator EnemyTurn()
     {
         dialogueText.text = ennemyUnit.unitName + " attaque !";
+        
+        monsterIsAttacking = true;
+        
         yield return new WaitForSeconds(1f);
 
         bool isDead = playerUnit.TakeDamage(ennemyUnit.damage);
@@ -219,6 +236,8 @@ public class BattleSystem : MonoBehaviour
         playerHUD.SetPV(playerUnit.currentPV);
 
         yield return new WaitForSeconds(1f);
+        
+        playerIsHurted = true;
 
         if (isDead)
         {

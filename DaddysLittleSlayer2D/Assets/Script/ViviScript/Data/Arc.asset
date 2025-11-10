@@ -12,12 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b065143015f4e5844a788e77dc3b807b, type: 3}
   m_Name: Arc
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
-  itemName: Arc
+  itemName: "Fl\xE8ches d'Artemis"
   itemType: 0
   attack1:
-    attackName: Boom
+    attackName: "Fl\xE8che explosive"
     damage: 4
+    damageMyself: 2
   attack2:
-    attackName: Triomphe
+    attackName: Picotage
     damage: 1
+    damageMyself: 0
   healAmount: 0
