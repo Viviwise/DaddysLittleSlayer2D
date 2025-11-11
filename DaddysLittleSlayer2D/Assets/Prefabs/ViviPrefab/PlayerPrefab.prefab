@@ -106,5 +106,6 @@ MonoBehaviour:
   unitName: Donatien
   unitLevel: 1
   damage: 4
-  maxPV: 10
-  currentPV: 10
+  maxPV: 25
+  currentPV: 25
+  equippedItem: {fileID: 0}
