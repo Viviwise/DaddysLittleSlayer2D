@@ -1,142 +1,142 @@
 fileFormatVersion: 2
-guid: 200e52e1391acd035b42e20ae0c12e1a
+guid: 951d979f53c723a96b708f2f897cbe63
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2078365211570555615
-    second: BobbyIdleTest_0
+      213: 5393454252947437915
+    second: BobbyAtk_0
   - first:
-      213: 5557225973703064129
-    second: BobbyIdleTest_1
+      213: -5853786132305007082
+    second: BobbyAtk_1
   - first:
-      213: 8911051567914012557
-    second: BobbyIdleTest_2
+      213: -2841248059849665514
+    second: BobbyAtk_2
   - first:
-      213: -373674246406692124
-    second: BobbyIdleTest_3
+      213: -3116797630809330659
+    second: BobbyAtk_3
   - first:
-      213: -3664303360998973433
-    second: BobbyIdleTest_4
+      213: -1380541960417543268
+    second: BobbyAtk_4
   - first:
-      213: 3272946384967566392
-    second: BobbyIdleTest_5
+      213: 2283416327379597591
+    second: BobbyAtk_5
   - first:
-      213: 7329622891669600052
-    second: BobbyIdleTest_6
+      213: 3366674455126307938
+    second: BobbyAtk_6
   - first:
-      213: -3110885516243500795
-    second: BobbyIdleTest_7
+      213: -4143417574056813222
+    second: BobbyAtk_7
   - first:
-      213: -3508393608886712544
-    second: BobbyIdleTest_8
+      213: 6086135728149381609
+    second: BobbyAtk_8
   - first:
-      213: -2761638323262489280
-    second: BobbyIdleTest_9
+      213: -145628097631677437
+    second: BobbyAtk_9
   - first:
-      213: 6687029220165385630
-    second: BobbyIdleTest_10
+      213: 390576611428752768
+    second: BobbyAtk_10
   - first:
-      213: 7018685935932107347
-    second: BobbyIdleTest_11
+      213: -9155402404120917877
+    second: BobbyAtk_11
   - first:
-      213: 3274868175006892014
-    second: BobbyIdleTest_12
+      213: -3839042209428282001
+    second: BobbyAtk_12
   - first:
-      213: -85012022119835613
-    second: BobbyIdleTest_13
+      213: -4118680140836216654
+    second: BobbyAtk_13
   - first:
-      213: -8680144709701066080
-    second: BobbyIdleTest_14
+      213: -7942718895212852519
+    second: BobbyAtk_14
   - first:
-      213: 307241443885903228
-    second: BobbyIdleTest_15
+      213: -6117763624434188808
+    second: BobbyAtk_15
   - first:
-      213: -1062024862151807418
-    second: BobbyIdleTest_16
+      213: 2856677144784948765
+    second: BobbyAtk_16
   - first:
-      213: -8655862318729085341
-    second: BobbyIdleTest_17
+      213: -8669301203913964918
+    second: BobbyAtk_17
   - first:
-      213: 6877791916254301346
-    second: BobbyIdleTest_18
+      213: 6010564247331027416
+    second: BobbyAtk_18
   - first:
-      213: 593903596321383134
-    second: BobbyIdleTest_19
+      213: -7242035465804927010
+    second: BobbyAtk_19
   - first:
-      213: -5028115772861268229
-    second: BobbyIdleTest_20
+      213: 3749580574628006666
+    second: BobbyAtk_20
   - first:
-      213: -7860993436540034084
-    second: BobbyIdleTest_21
+      213: -2618488617936610457
+    second: BobbyAtk_21
   - first:
-      213: 7700073776207056675
-    second: BobbyIdleTest_22
+      213: 1578950566802238769
+    second: BobbyAtk_22
   - first:
-      213: -6701214208559074737
-    second: BobbyIdleTest_23
+      213: 8111135989008127940
+    second: BobbyAtk_23
   - first:
-      213: 4782894761349676159
-    second: BobbyIdleTest_24
+      213: 3260819130734789275
+    second: BobbyAtk_24
   - first:
-      213: -1776082713847178394
-    second: BobbyIdleTest_25
+      213: 2524779230584047240
+    second: BobbyAtk_25
   - first:
-      213: 1319819616421863537
-    second: BobbyIdleTest_26
+      213: -2160546697676118765
+    second: BobbyAtk_26
   - first:
-      213: 7690333021559414683
-    second: BobbyIdleTest_27
+      213: -4242728467049720537
+    second: BobbyAtk_27
   - first:
-      213: 6765818034884400922
-    second: BobbyIdleTest_28
+      213: -3141351124521266675
+    second: BobbyAtk_28
   - first:
-      213: 6676930437399267729
-    second: BobbyIdleTest_29
+      213: -4949700772067386152
+    second: BobbyAtk_29
   - first:
-      213: -3587046028467236787
-    second: BobbyIdleTest_30
+      213: -7916274648312438218
+    second: BobbyAtk_30
   - first:
-      213: -3155082906458092717
-    second: BobbyIdleTest_31
+      213: 9019267592622728376
+    second: BobbyAtk_31
   - first:
-      213: -5044363453346052543
-    second: BobbyIdleTest_32
+      213: 8192013307727261010
+    second: BobbyAtk_32
   - first:
-      213: -4854279262824616001
-    second: BobbyIdleTest_33
+      213: -1903745177923519346
+    second: BobbyAtk_33
   - first:
-      213: -4941634012871677888
-    second: BobbyIdleTest_34
+      213: -4116682825620554265
+    second: BobbyAtk_34
   - first:
-      213: -637940500142142356
-    second: BobbyIdleTest_35
+      213: -375870846533570941
+    second: BobbyAtk_35
   - first:
-      213: -7562670850318365614
-    second: BobbyIdleTest_36
+      213: -4082315491793613182
+    second: BobbyAtk_36
   - first:
-      213: -3741253984829285466
-    second: BobbyIdleTest_37
+      213: -7347048891526209369
+    second: BobbyAtk_37
   - first:
-      213: 7444573906504271642
-    second: BobbyIdleTest_38
+      213: 7105655275535284984
+    second: BobbyAtk_38
   - first:
-      213: 1837426707502214267
-    second: BobbyIdleTest_39
+      213: -7201866550697453288
+    second: BobbyAtk_39
   - first:
-      213: 2760298335393129151
-    second: BobbyIdleTest_40
+      213: 1157944896881014814
+    second: BobbyAtk_40
   - first:
-      213: 5914751673292723203
-    second: BobbyIdleTest_41
+      213: -1190284917999988231
+    second: BobbyAtk_41
   - first:
-      213: 820412700304776371
-    second: BobbyIdleTest_42
+      213: -5383297915672098542
+    second: BobbyAtk_42
   - first:
-      213: -3072647007555104575
-    second: BobbyIdleTest_43
+      213: -7288488721130418365
+    second: BobbyAtk_43
   - first:
-      213: -8592464815057465998
-    second: BobbyIdleTest_44
+      213: -5122052564466480571
+    second: BobbyAtk_44
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -181,8 +181,8 @@ TextureImporter:
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
+  alignment: 7
+  spritePivot: {x: 0.5, y: 0}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -284,12 +284,958 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BobbyIdleTest_0
+      name: BobbyAtk_0
       rect:
         serializedVersion: 2
-        x: 23
-        y: 1671
+        x: 24
+        y: 1672
+        width: 100
+        height: 253
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b59704b311669da40800000000000000
+      internalID: 5393454252947437915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyAtk_1
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 1672
+        width: 100
+        height: 253
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e2ad0078c23cea0800000000000000
+      internalID: -5853786132305007082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyAtk_2
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1672
+        width: 100
+        height: 253
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61494e171fbd198d0800000000000000
+      internalID: -2841248059849665514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyAtk_3
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1673
+        width: 100
+        height: 252
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1ca4da7119eeb4d0800000000000000
+      internalID: -3116797630809330659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyAtk_4
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 1673
+        width: 100
+        height: 252
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9b7ac3c66457dce0800000000000000
+      internalID: -1380541960417543268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyAtk_5
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 1673
+        width: 100
+        height: 252
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 719b9cb3d0350bf10800000000000000
+      internalID: 2283416327379597591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyAtk_6
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 1673
+        width: 99
+        height: 252
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2647f2c5494d8be20800000000000000
+      internalID: 3366674455126307938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyAtk_7
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 1673
+        width: 99
+        height: 252
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d9b3e4baf9f76c0800000000000000
+      internalID: -4143417574056813222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyAtk_8
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 1673
+        width: 99
+        height: 252
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e14823f23c467450800000000000000
+      internalID: 6086135728149381609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyAtk_9
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 1673
+        width: 99
+        height: 252
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 304195b4400aafdf0800000000000000
+      internalID: -145628097631677437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyAtk_10
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 1673
+        width: 98
+        height: 252
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08d59c5db5b9b6500800000000000000
+      internalID: 390576611428752768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyAtk_11
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 1673
+        width: 98
+        height: 252
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b888d96550a71f080800000000000000
+      internalID: -9155402404120917877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyAtk_12
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1161
+        width: 98
+        height: 252
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f65eb4d537bf8bac0800000000000000
+      internalID: -3839042209428282001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyAtk_13
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 1161
+        width: 98
+        height: 252
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b0600ecb3287d6c0800000000000000
+      internalID: -4118680140836216654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyAtk_14
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1162
+        width: 98
+        height: 251
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9da0e044f3bc5c190800000000000000
+      internalID: -7942718895212852519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyAtk_15
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1162
+        width: 98
+        height: 251
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fd3bc99566591ba0800000000000000
+      internalID: -6117763624434188808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyAtk_16
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 1162
+        width: 97
+        height: 251
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1e42e45ab4f4a720800000000000000
+      internalID: 2856677144784948765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyAtk_17
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 1162
+        width: 97
+        height: 251
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8287d9ac7470b780800000000000000
+      internalID: -8669301203913964918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyAtk_18
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 1162
+        width: 97
+        height: 251
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d934dd6650d96350800000000000000
+      internalID: 6010564247331027416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyAtk_19
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 1162
+        width: 97
+        height: 251
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edfaae12d1f1f7b90800000000000000
+      internalID: -7242035465804927010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyAtk_20
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 1162
+        width: 97
+        height: 251
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0b486f9aaf290430800000000000000
+      internalID: 3749580574628006666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyAtk_21
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 1162
+        width: 97
+        height: 252
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76b1c7fa97249abd0800000000000000
+      internalID: -2618488617936610457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyAtk_22
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 1162
+        width: 97
+        height: 252
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13d2624cc2f89e510800000000000000
+      internalID: 1578950566802238769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyAtk_23
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 1162
+        width: 97
+        height: 252
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c757b5153b809070800000000000000
+      internalID: 8111135989008127940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyAtk_24
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 650
+        width: 96
+        height: 252
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b92ce3c09b1c04d20800000000000000
+      internalID: 3260819130734789275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyAtk_25
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 650
+        width: 96
+        height: 252
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8860f375551d90320800000000000000
+      internalID: 2524779230584047240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyAtk_26
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 650
+        width: 96
+        height: 252
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3152f5cb9323402e0800000000000000
+      internalID: -2160546697676118765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyAtk_27
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 649
+        width: 96
+        height: 253
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 725501b20fcce15c0800000000000000
+      internalID: -4242728467049720537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyAtk_28
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 649
+        width: 96
+        height: 253
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d02d22cbbcda764d0800000000000000
+      internalID: -3141351124521266675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyAtk_29
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 649
+        width: 96
+        height: 253
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dc52785f512f4bb0800000000000000
+      internalID: -4949700772067386152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyAtk_30
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 649
+        width: 96
+        height: 253
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63228ea462eb32290800000000000000
+      internalID: -7916274648312438218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyAtk_31
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 649
+        width: 96
+        height: 253
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b46870e610ea2d70800000000000000
+      internalID: 9019267592622728376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyAtk_32
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 647
+        width: 97
+        height: 254
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25d2b5243b0efa170800000000000000
+      internalID: 8192013307727261010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyAtk_33
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 645
+        width: 101
+        height: 256
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c710fd8d98495e0800000000000000
+      internalID: -1903745177923519346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyAtk_34
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 642
+        width: 103
+        height: 259
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ed7fedf7ca9ed6c0800000000000000
+      internalID: -4116682825620554265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyAtk_35
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 639
+        width: 106
+        height: 262
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38ee0fed473a8caf0800000000000000
+      internalID: -375870846533570941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyAtk_36
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 127
+        width: 105
+        height: 262
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28e419270b3b857c0800000000000000
+      internalID: -4082315491793613182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyAtk_37
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 127
+        width: 105
+        height: 262
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a02721a5f90a0a90800000000000000
+      internalID: -7347048891526209369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyAtk_38
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 127
+        width: 103
+        height: 262
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fa39a263db5c9260800000000000000
+      internalID: 7105655275535284984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyAtk_39
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 129
+        width: 103
+        height: 260
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81919ed7784dd0c90800000000000000
+      internalID: -7201866550697453288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyAtk_40
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 130
         width: 102
+        height: 259
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e18b118afb8d11010800000000000000
+      internalID: 1157944896881014814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyAtk_41
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 131
+        width: 101
+        height: 258
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f11b196c224b7fe0800000000000000
+      internalID: -1190284917999988231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyAtk_42
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 133
+        width: 100
+        height: 256
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2198340511faa45b0800000000000000
+      internalID: -5383297915672098542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyAtk_43
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 134
+        width: 100
         height: 255
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -299,976 +1245,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fda4135f526d7dc10800000000000000
-      internalID: 2078365211570555615
+      spriteID: 34f849bcf161ada90800000000000000
+      internalID: -7288488721130418365
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BobbyIdleTest_1
+      name: BobbyAtk_44
       rect:
         serializedVersion: 2
-        x: 150
-        y: 1671
-        width: 104
-        height: 255
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 14a3523649b3f1d40800000000000000
-      internalID: 5557225973703064129
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BobbyIdleTest_2
-      rect:
-        serializedVersion: 2
-        x: 278
-        y: 1671
-        width: 104
-        height: 255
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d8fc3b0303a6aab70800000000000000
-      internalID: 8911051567914012557
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BobbyIdleTest_3
-      rect:
-        serializedVersion: 2
-        x: 406
-        y: 1671
-        width: 104
-        height: 255
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4e2a731b04170daf0800000000000000
-      internalID: -373674246406692124
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BobbyIdleTest_4
-      rect:
-        serializedVersion: 2
-        x: 533
-        y: 1671
-        width: 105
-        height: 255
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 700e26ae187c52dc0800000000000000
-      internalID: -3664303360998973433
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BobbyIdleTest_5
-      rect:
-        serializedVersion: 2
-        x: 661
-        y: 1671
-        width: 105
-        height: 255
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 83404e47567db6d20800000000000000
-      internalID: 3272946384967566392
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BobbyIdleTest_6
-      rect:
-        serializedVersion: 2
-        x: 789
-        y: 1671
-        width: 105
-        height: 254
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 437b98b9f2d08b560800000000000000
-      internalID: 7329622891669600052
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BobbyIdleTest_7
-      rect:
-        serializedVersion: 2
-        x: 917
-        y: 1671
-        width: 106
-        height: 254
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 501066bea1ae3d4d0800000000000000
-      internalID: -3110885516243500795
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BobbyIdleTest_8
-      rect:
-        serializedVersion: 2
-        x: 1044
-        y: 1671
-        width: 107
-        height: 254
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0278e0ad99eaf4fc0800000000000000
-      internalID: -3508393608886712544
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BobbyIdleTest_9
-      rect:
-        serializedVersion: 2
-        x: 1172
-        y: 1671
-        width: 107
-        height: 254
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 04d75d7a390bca9d0800000000000000
-      internalID: -2761638323262489280
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BobbyIdleTest_10
-      rect:
-        serializedVersion: 2
-        x: 1300
-        y: 1671
-        width: 107
-        height: 254
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e9d7d9675a91dcc50800000000000000
-      internalID: 6687029220165385630
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BobbyIdleTest_11
-      rect:
-        serializedVersion: 2
-        x: 1427
-        y: 1671
-        width: 108
-        height: 254
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 35a63411ca1676160800000000000000
-      internalID: 7018685935932107347
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BobbyIdleTest_12
-      rect:
-        serializedVersion: 2
-        x: 19
-        y: 1159
-        width: 108
-        height: 253
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: eef7481114ba27d20800000000000000
-      internalID: 3274868175006892014
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BobbyIdleTest_13
-      rect:
-        serializedVersion: 2
-        x: 147
-        y: 1159
-        width: 108
-        height: 253
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 328d8eb240af1def0800000000000000
-      internalID: -85012022119835613
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BobbyIdleTest_14
-      rect:
-        serializedVersion: 2
-        x: 276
-        y: 1159
-        width: 108
-        height: 253
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0a2284b306ee98780800000000000000
-      internalID: -8680144709701066080
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BobbyIdleTest_15
-      rect:
-        serializedVersion: 2
-        x: 404
-        y: 1159
-        width: 108
-        height: 253
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c7de813277a834400800000000000000
-      internalID: 307241443885903228
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BobbyIdleTest_16
-      rect:
-        serializedVersion: 2
-        x: 532
-        y: 1159
-        width: 108
-        height: 253
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 64eeec4c30ee241f0800000000000000
-      internalID: -1062024862151807418
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BobbyIdleTest_17
-      rect:
-        serializedVersion: 2
-        x: 660
-        y: 1159
-        width: 108
-        height: 253
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 36eb673f41330e780800000000000000
-      internalID: -8655862318729085341
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BobbyIdleTest_18
-      rect:
-        serializedVersion: 2
-        x: 789
-        y: 1159
-        width: 107
-        height: 252
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2ac0467ce43d27f50800000000000000
-      internalID: 6877791916254301346
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BobbyIdleTest_19
-      rect:
-        serializedVersion: 2
-        x: 917
-        y: 1159
-        width: 107
-        height: 252
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ed220999c28fd3800800000000000000
-      internalID: 593903596321383134
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BobbyIdleTest_20
-      rect:
-        serializedVersion: 2
-        x: 1045
-        y: 1159
-        width: 108
-        height: 252
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bfeb01d385b883ab0800000000000000
-      internalID: -5028115772861268229
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BobbyIdleTest_21
-      rect:
-        serializedVersion: 2
-        x: 1173
-        y: 1159
-        width: 108
-        height: 252
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cd3aa596e1428e290800000000000000
-      internalID: -7860993436540034084
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BobbyIdleTest_22
-      rect:
-        serializedVersion: 2
-        x: 1301
-        y: 1159
-        width: 108
-        height: 252
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 32f4f1f7d482cda60800000000000000
-      internalID: 7700073776207056675
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BobbyIdleTest_23
-      rect:
-        serializedVersion: 2
-        x: 1430
-        y: 1159
-        width: 106
-        height: 252
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f42390f8e218003a0800000000000000
-      internalID: -6701214208559074737
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BobbyIdleTest_24
-      rect:
-        serializedVersion: 2
-        x: 22
-        y: 647
-        width: 107
-        height: 252
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f7cf250d171406240800000000000000
-      internalID: 4782894761349676159
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BobbyIdleTest_25
-      rect:
-        serializedVersion: 2
-        x: 150
-        y: 647
-        width: 107
-        height: 252
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 66b5d6d8e261a57e0800000000000000
-      internalID: -1776082713847178394
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BobbyIdleTest_26
-      rect:
-        serializedVersion: 2
-        x: 278
-        y: 647
-        width: 107
-        height: 252
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 170ea6cc2f0f05210800000000000000
-      internalID: 1319819616421863537
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BobbyIdleTest_27
-      rect:
-        serializedVersion: 2
-        x: 406
-        y: 647
-        width: 106
-        height: 252
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b9f5182532d89ba60800000000000000
-      internalID: 7690333021559414683
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BobbyIdleTest_28
-      rect:
-        serializedVersion: 2
-        x: 534
-        y: 647
-        width: 106
-        height: 253
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a175738e7a305ed50800000000000000
-      internalID: 6765818034884400922
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BobbyIdleTest_29
-      rect:
-        serializedVersion: 2
-        x: 662
-        y: 647
-        width: 106
-        height: 253
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1994d2f5bd839ac50800000000000000
-      internalID: 6676930437399267729
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BobbyIdleTest_30
-      rect:
-        serializedVersion: 2
-        x: 791
-        y: 647
-        width: 105
-        height: 253
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d401c3064a0483ec0800000000000000
-      internalID: -3587046028467236787
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BobbyIdleTest_31
-      rect:
-        serializedVersion: 2
-        x: 919
-        y: 647
-        width: 105
-        height: 253
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 35b88ab10d4e634d0800000000000000
-      internalID: -3155082906458092717
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BobbyIdleTest_32
-      rect:
-        serializedVersion: 2
-        x: 1047
-        y: 647
-        width: 105
-        height: 253
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 14688555a22def9b0800000000000000
-      internalID: -5044363453346052543
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BobbyIdleTest_33
-      rect:
-        serializedVersion: 2
-        x: 1175
-        y: 647
-        width: 104
-        height: 253
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fbf2bc2cab222acb0800000000000000
-      internalID: -4854279262824616001
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BobbyIdleTest_34
-      rect:
-        serializedVersion: 2
-        x: 1303
-        y: 647
-        width: 104
-        height: 254
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 048abc41c0acb6bb0800000000000000
-      internalID: -4941634012871677888
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BobbyIdleTest_35
-      rect:
-        serializedVersion: 2
-        x: 1431
-        y: 647
-        width: 104
-        height: 254
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c6c413dbe749527f0800000000000000
-      internalID: -637940500142142356
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BobbyIdleTest_36
-      rect:
-        serializedVersion: 2
-        x: 23
+        x: 1048
         y: 135
-        width: 104
+        width: 101
         height: 254
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 25c829d2eeefb0790800000000000000
-      internalID: -7562670850318365614
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BobbyIdleTest_37
-      rect:
-        serializedVersion: 2
-        x: 151
-        y: 135
-        width: 104
-        height: 254
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6ab5cb3a255641cc0800000000000000
-      internalID: -3741253984829285466
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BobbyIdleTest_38
-      rect:
-        serializedVersion: 2
-        x: 279
-        y: 135
-        width: 104
-        height: 254
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a1744516680705760800000000000000
-      internalID: 7444573906504271642
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BobbyIdleTest_39
-      rect:
-        serializedVersion: 2
-        x: 407
-        y: 135
-        width: 103
-        height: 254
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b7c2c79fad9df7910800000000000000
-      internalID: 1837426707502214267
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BobbyIdleTest_40
-      rect:
-        serializedVersion: 2
-        x: 535
-        y: 135
-        width: 103
-        height: 255
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fb2a53b16bc8e4620800000000000000
-      internalID: 2760298335393129151
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BobbyIdleTest_41
-      rect:
-        serializedVersion: 2
-        x: 663
-        y: 135
-        width: 103
-        height: 255
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 30492452f4b651250800000000000000
-      internalID: 5914751673292723203
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BobbyIdleTest_42
-      rect:
-        serializedVersion: 2
-        x: 791
-        y: 135
-        width: 103
-        height: 255
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3bc92e21101b26b00800000000000000
-      internalID: 820412700304776371
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BobbyIdleTest_43
-      rect:
-        serializedVersion: 2
-        x: 919
-        y: 135
-        width: 103
-        height: 255
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1c0d28283d3cb55d0800000000000000
-      internalID: -3072647007555104575
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BobbyIdleTest_44
-      rect:
-        serializedVersion: 2
-        x: 1047
-        y: 135
-        width: 103
-        height: 255
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 27d057986ce61c880800000000000000
-      internalID: -8592464815057465998
+      spriteID: 54ac8169450dae8b0800000000000000
+      internalID: -5122052564466480571
       vertices: []
       indices: 
       edges: []
@@ -1277,7 +1277,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: c8ce9b70a13c5177ba87ea000c4305f3
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -1285,53 +1285,55 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      BobbyIdleTest_0: 2078365211570555615
-      BobbyIdleTest_1: 5557225973703064129
-      BobbyIdleTest_10: 6687029220165385630
-      BobbyIdleTest_11: 7018685935932107347
-      BobbyIdleTest_12: 3274868175006892014
-      BobbyIdleTest_13: -85012022119835613
-      BobbyIdleTest_14: -8680144709701066080
-      BobbyIdleTest_15: 307241443885903228
-      BobbyIdleTest_16: -1062024862151807418
-      BobbyIdleTest_17: -8655862318729085341
-      BobbyIdleTest_18: 6877791916254301346
-      BobbyIdleTest_19: 593903596321383134
-      BobbyIdleTest_2: 8911051567914012557
-      BobbyIdleTest_20: -5028115772861268229
-      BobbyIdleTest_21: -7860993436540034084
-      BobbyIdleTest_22: 7700073776207056675
-      BobbyIdleTest_23: -6701214208559074737
-      BobbyIdleTest_24: 4782894761349676159
-      BobbyIdleTest_25: -1776082713847178394
-      BobbyIdleTest_26: 1319819616421863537
-      BobbyIdleTest_27: 7690333021559414683
-      BobbyIdleTest_28: 6765818034884400922
-      BobbyIdleTest_29: 6676930437399267729
-      BobbyIdleTest_3: -373674246406692124
-      BobbyIdleTest_30: -3587046028467236787
-      BobbyIdleTest_31: -3155082906458092717
-      BobbyIdleTest_32: -5044363453346052543
-      BobbyIdleTest_33: -4854279262824616001
-      BobbyIdleTest_34: -4941634012871677888
-      BobbyIdleTest_35: -637940500142142356
-      BobbyIdleTest_36: -7562670850318365614
-      BobbyIdleTest_37: -3741253984829285466
-      BobbyIdleTest_38: 7444573906504271642
-      BobbyIdleTest_39: 1837426707502214267
-      BobbyIdleTest_4: -3664303360998973433
-      BobbyIdleTest_40: 2760298335393129151
-      BobbyIdleTest_41: 5914751673292723203
-      BobbyIdleTest_42: 820412700304776371
-      BobbyIdleTest_43: -3072647007555104575
-      BobbyIdleTest_44: -8592464815057465998
-      BobbyIdleTest_5: 3272946384967566392
-      BobbyIdleTest_6: 7329622891669600052
-      BobbyIdleTest_7: -3110885516243500795
-      BobbyIdleTest_8: -3508393608886712544
-      BobbyIdleTest_9: -2761638323262489280
+      BobbyAtk_0: 5393454252947437915
+      BobbyAtk_1: -5853786132305007082
+      BobbyAtk_10: 390576611428752768
+      BobbyAtk_11: -9155402404120917877
+      BobbyAtk_12: -3839042209428282001
+      BobbyAtk_13: -4118680140836216654
+      BobbyAtk_14: -7942718895212852519
+      BobbyAtk_15: -6117763624434188808
+      BobbyAtk_16: 2856677144784948765
+      BobbyAtk_17: -8669301203913964918
+      BobbyAtk_18: 6010564247331027416
+      BobbyAtk_19: -7242035465804927010
+      BobbyAtk_2: -2841248059849665514
+      BobbyAtk_20: 3749580574628006666
+      BobbyAtk_21: -2618488617936610457
+      BobbyAtk_22: 1578950566802238769
+      BobbyAtk_23: 8111135989008127940
+      BobbyAtk_24: 3260819130734789275
+      BobbyAtk_25: 2524779230584047240
+      BobbyAtk_26: -2160546697676118765
+      BobbyAtk_27: -4242728467049720537
+      BobbyAtk_28: -3141351124521266675
+      BobbyAtk_29: -4949700772067386152
+      BobbyAtk_3: -3116797630809330659
+      BobbyAtk_30: -7916274648312438218
+      BobbyAtk_31: 9019267592622728376
+      BobbyAtk_32: 8192013307727261010
+      BobbyAtk_33: -1903745177923519346
+      BobbyAtk_34: -4116682825620554265
+      BobbyAtk_35: -375870846533570941
+      BobbyAtk_36: -4082315491793613182
+      BobbyAtk_37: -7347048891526209369
+      BobbyAtk_38: 7105655275535284984
+      BobbyAtk_39: -7201866550697453288
+      BobbyAtk_4: -1380541960417543268
+      BobbyAtk_40: 1157944896881014814
+      BobbyAtk_41: -1190284917999988231
+      BobbyAtk_42: -5383297915672098542
+      BobbyAtk_43: -7288488721130418365
+      BobbyAtk_44: -5122052564466480571
+      BobbyAtk_5: 2283416327379597591
+      BobbyAtk_6: 3366674455126307938
+      BobbyAtk_7: -4143417574056813222
+      BobbyAtk_8: 6086135728149381609
+      BobbyAtk_9: -145628097631677437
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
