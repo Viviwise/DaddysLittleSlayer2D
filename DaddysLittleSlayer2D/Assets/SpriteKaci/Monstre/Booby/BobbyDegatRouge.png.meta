@@ -1,0 +1,1341 @@
+fileFormatVersion: 2
+guid: 455eef1945a0606f3827dab7577118ff
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8557783477418716200
+    second: BobbyDegatRouge_0
+  - first:
+      213: -8556357207871407862
+    second: BobbyDegatRouge_1
+  - first:
+      213: 5174905728670799924
+    second: BobbyDegatRouge_2
+  - first:
+      213: 2656469465529018301
+    second: BobbyDegatRouge_3
+  - first:
+      213: -6861638485736285265
+    second: BobbyDegatRouge_4
+  - first:
+      213: -308880219941805056
+    second: BobbyDegatRouge_5
+  - first:
+      213: -7656140260051847278
+    second: BobbyDegatRouge_6
+  - first:
+      213: -50386851847952911
+    second: BobbyDegatRouge_7
+  - first:
+      213: 2020217966816751522
+    second: BobbyDegatRouge_8
+  - first:
+      213: 413317092543918203
+    second: BobbyDegatRouge_9
+  - first:
+      213: 4474163686802036400
+    second: BobbyDegatRouge_10
+  - first:
+      213: -7379040406175093298
+    second: BobbyDegatRouge_11
+  - first:
+      213: 8490234928542002298
+    second: BobbyDegatRouge_12
+  - first:
+      213: 6459076908416097795
+    second: BobbyDegatRouge_13
+  - first:
+      213: -6360713945600379142
+    second: BobbyDegatRouge_14
+  - first:
+      213: 7358952590581130366
+    second: BobbyDegatRouge_15
+  - first:
+      213: -1320702523651834822
+    second: BobbyDegatRouge_16
+  - first:
+      213: 1872337972557589170
+    second: BobbyDegatRouge_17
+  - first:
+      213: 1254534749510815749
+    second: BobbyDegatRouge_18
+  - first:
+      213: -3030302049458703924
+    second: BobbyDegatRouge_19
+  - first:
+      213: -8597291514958494634
+    second: BobbyDegatRouge_20
+  - first:
+      213: 65494449824180167
+    second: BobbyDegatRouge_21
+  - first:
+      213: 8164631714189782935
+    second: BobbyDegatRouge_22
+  - first:
+      213: 4717711414224074943
+    second: BobbyDegatRouge_23
+  - first:
+      213: -4334431255013548726
+    second: BobbyDegatRouge_24
+  - first:
+      213: 424046809598231145
+    second: BobbyDegatRouge_25
+  - first:
+      213: 8391658613905933915
+    second: BobbyDegatRouge_26
+  - first:
+      213: 5787402220797661527
+    second: BobbyDegatRouge_27
+  - first:
+      213: 5518187040365533841
+    second: BobbyDegatRouge_28
+  - first:
+      213: 5646947646073537631
+    second: BobbyDegatRouge_29
+  - first:
+      213: 2136593813787128281
+    second: BobbyDegatRouge_30
+  - first:
+      213: 4614613501569232856
+    second: BobbyDegatRouge_31
+  - first:
+      213: -6243466317660006901
+    second: BobbyDegatRouge_32
+  - first:
+      213: -43781725891710709
+    second: BobbyDegatRouge_33
+  - first:
+      213: -5454890026206551266
+    second: BobbyDegatRouge_34
+  - first:
+      213: 7408023641157974994
+    second: BobbyDegatRouge_35
+  - first:
+      213: 1698761599429110753
+    second: BobbyDegatRouge_36
+  - first:
+      213: -4612971487814994274
+    second: BobbyDegatRouge_37
+  - first:
+      213: -1779941537836817540
+    second: BobbyDegatRouge_38
+  - first:
+      213: -6523268809026247660
+    second: BobbyDegatRouge_39
+  - first:
+      213: -7079764454722294262
+    second: BobbyDegatRouge_40
+  - first:
+      213: -5876510404281250480
+    second: BobbyDegatRouge_41
+  - first:
+      213: 8939388266390337463
+    second: BobbyDegatRouge_42
+  - first:
+      213: 8657961285219155217
+    second: BobbyDegatRouge_43
+  - first:
+      213: -1213584584216883548
+    second: BobbyDegatRouge_44
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BobbyDegatRouge_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1672
+        width: 100
+        height: 253
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d310c3b445ac3980800000000000000
+      internalID: -8557783477418716200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyDegatRouge_1
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1673
+        width: 101
+        height: 252
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a09b875f376b14980800000000000000
+      internalID: -8556357207871407862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyDegatRouge_2
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 1672
+        width: 101
+        height: 252
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4389e87a755f0d740800000000000000
+      internalID: 5174905728670799924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyDegatRouge_3
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 1671
+        width: 101
+        height: 251
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db7678187ecadd420800000000000000
+      internalID: 2656469465529018301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyDegatRouge_4
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 1671
+        width: 101
+        height: 250
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fab1a88d62096c0a0800000000000000
+      internalID: -6861638485736285265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyDegatRouge_5
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 1671
+        width: 102
+        height: 250
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00469349313a6bbf0800000000000000
+      internalID: -308880219941805056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyDegatRouge_6
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 1671
+        width: 102
+        height: 249
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 297fa095ffcefb590800000000000000
+      internalID: -7656140260051847278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyDegatRouge_7
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1671
+        width: 102
+        height: 247
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f5a04adc6dfc4ff0800000000000000
+      internalID: -50386851847952911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyDegatRouge_8
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 1671
+        width: 102
+        height: 246
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2af69f88981490c10800000000000000
+      internalID: 2020217966816751522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyDegatRouge_9
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 1671
+        width: 102
+        height: 246
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b707da0b4b56cb500800000000000000
+      internalID: 413317092543918203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyDegatRouge_10
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 1671
+        width: 103
+        height: 245
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b699c20b2c671e30800000000000000
+      internalID: 4474163686802036400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyDegatRouge_11
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 1671
+        width: 103
+        height: 246
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecdedaea8d1689990800000000000000
+      internalID: -7379040406175093298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyDegatRouge_12
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1159
+        width: 103
+        height: 246
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c2c5f2faf53d570800000000000000
+      internalID: 8490234928542002298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyDegatRouge_13
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1159
+        width: 102
+        height: 246
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30ed11ff93043a950800000000000000
+      internalID: 6459076908416097795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyDegatRouge_14
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 1159
+        width: 102
+        height: 246
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af6bd92fd543ab7a0800000000000000
+      internalID: -6360713945600379142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyDegatRouge_15
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1159
+        width: 102
+        height: 246
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7467884460402660800000000000000
+      internalID: 7358952590581130366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyDegatRouge_16
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 1159
+        width: 101
+        height: 246
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3c35c75d0cebade0800000000000000
+      internalID: -1320702523651834822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyDegatRouge_17
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 1159
+        width: 100
+        height: 247
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ba25c94771ebf910800000000000000
+      internalID: 1872337972557589170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyDegatRouge_18
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 1159
+        width: 99
+        height: 247
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 500d9f635b0096110800000000000000
+      internalID: 1254534749510815749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyDegatRouge_19
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 1159
+        width: 99
+        height: 247
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc130eb575432f5d0800000000000000
+      internalID: -3030302049458703924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyDegatRouge_20
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 1159
+        width: 99
+        height: 247
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6544b64eae840b880800000000000000
+      internalID: -8597291514958494634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyDegatRouge_21
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 1159
+        width: 99
+        height: 247
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c7a788eadea8e000800000000000000
+      internalID: 65494449824180167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyDegatRouge_22
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 1159
+        width: 100
+        height: 248
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79fab2639499e4170800000000000000
+      internalID: 8164631714189782935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyDegatRouge_23
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 1159
+        width: 101
+        height: 248
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb8b1a5298da87140800000000000000
+      internalID: 4717711414224074943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyDegatRouge_24
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 647
+        width: 102
+        height: 249
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4d11950db109d3c0800000000000000
+      internalID: -4334431255013548726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyDegatRouge_25
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 647
+        width: 102
+        height: 249
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9628d3e935482e500800000000000000
+      internalID: 424046809598231145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyDegatRouge_26
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 647
+        width: 102
+        height: 250
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b56c5366c09257470800000000000000
+      internalID: 8391658613905933915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyDegatRouge_27
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 647
+        width: 103
+        height: 250
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75193f628abf05050800000000000000
+      internalID: 5787402220797661527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyDegatRouge_28
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 647
+        width: 103
+        height: 250
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19ad62960e9849c40800000000000000
+      internalID: 5518187040365533841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyDegatRouge_29
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 647
+        width: 103
+        height: 250
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f54017d17fcfd5e40800000000000000
+      internalID: 5646947646073537631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyDegatRouge_30
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 647
+        width: 105
+        height: 250
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d13414e0c4b6ad10800000000000000
+      internalID: 2136593813787128281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyDegatRouge_31
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 647
+        width: 105
+        height: 250
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df61c8c7866a0040800000000000000
+      internalID: 4614613501569232856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyDegatRouge_32
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 647
+        width: 106
+        height: 250
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0652c0a670ca59a0800000000000000
+      internalID: -6243466317660006901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyDegatRouge_33
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 647
+        width: 106
+        height: 251
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b01329490c4746ff0800000000000000
+      internalID: -43781725891710709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyDegatRouge_34
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 647
+        width: 107
+        height: 251
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1323232c665c44b0800000000000000
+      internalID: -5454890026206551266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyDegatRouge_35
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 646
+        width: 106
+        height: 252
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dbbae290469ec660800000000000000
+      internalID: 7408023641157974994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyDegatRouge_36
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 134
+        width: 107
+        height: 252
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ebeb0c9ca6339710800000000000000
+      internalID: 1698761599429110753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyDegatRouge_37
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 134
+        width: 105
+        height: 252
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9638c55fde6bffb0800000000000000
+      internalID: -4612971487814994274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyDegatRouge_38
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 134
+        width: 105
+        height: 254
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7326441a906c47e0800000000000000
+      internalID: -1779941537836817540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyDegatRouge_39
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 135
+        width: 104
+        height: 253
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 414ea977491b875a0800000000000000
+      internalID: -6523268809026247660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyDegatRouge_40
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 135
+        width: 104
+        height: 253
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0e27d61dbf9fbd90800000000000000
+      internalID: -7079764454722294262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyDegatRouge_41
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 135
+        width: 104
+        height: 253
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05dcde12ce0727ea0800000000000000
+      internalID: -5876510404281250480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyDegatRouge_42
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 135
+        width: 102
+        height: 254
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b7bd7fe3461f0c70800000000000000
+      internalID: 8939388266390337463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyDegatRouge_43
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 135
+        width: 102
+        height: 254
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11d7294cae1472870800000000000000
+      internalID: 8657961285219155217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BobbyDegatRouge_44
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 135
+        width: 102
+        height: 254
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aeccd0204b782fe0800000000000000
+      internalID: -1213584584216883548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 06e4fe9fb6609fbcdafd590fff82580b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      BobbyDegatRouge_0: -8557783477418716200
+      BobbyDegatRouge_1: -8556357207871407862
+      BobbyDegatRouge_10: 4474163686802036400
+      BobbyDegatRouge_11: -7379040406175093298
+      BobbyDegatRouge_12: 8490234928542002298
+      BobbyDegatRouge_13: 6459076908416097795
+      BobbyDegatRouge_14: -6360713945600379142
+      BobbyDegatRouge_15: 7358952590581130366
+      BobbyDegatRouge_16: -1320702523651834822
+      BobbyDegatRouge_17: 1872337972557589170
+      BobbyDegatRouge_18: 1254534749510815749
+      BobbyDegatRouge_19: -3030302049458703924
+      BobbyDegatRouge_2: 5174905728670799924
+      BobbyDegatRouge_20: -8597291514958494634
+      BobbyDegatRouge_21: 65494449824180167
+      BobbyDegatRouge_22: 8164631714189782935
+      BobbyDegatRouge_23: 4717711414224074943
+      BobbyDegatRouge_24: -4334431255013548726
+      BobbyDegatRouge_25: 424046809598231145
+      BobbyDegatRouge_26: 8391658613905933915
+      BobbyDegatRouge_27: 5787402220797661527
+      BobbyDegatRouge_28: 5518187040365533841
+      BobbyDegatRouge_29: 5646947646073537631
+      BobbyDegatRouge_3: 2656469465529018301
+      BobbyDegatRouge_30: 2136593813787128281
+      BobbyDegatRouge_31: 4614613501569232856
+      BobbyDegatRouge_32: -6243466317660006901
+      BobbyDegatRouge_33: -43781725891710709
+      BobbyDegatRouge_34: -5454890026206551266
+      BobbyDegatRouge_35: 7408023641157974994
+      BobbyDegatRouge_36: 1698761599429110753
+      BobbyDegatRouge_37: -4612971487814994274
+      BobbyDegatRouge_38: -1779941537836817540
+      BobbyDegatRouge_39: -6523268809026247660
+      BobbyDegatRouge_4: -6861638485736285265
+      BobbyDegatRouge_40: -7079764454722294262
+      BobbyDegatRouge_41: -5876510404281250480
+      BobbyDegatRouge_42: 8939388266390337463
+      BobbyDegatRouge_43: 8657961285219155217
+      BobbyDegatRouge_44: -1213584584216883548
+      BobbyDegatRouge_5: -308880219941805056
+      BobbyDegatRouge_6: -7656140260051847278
+      BobbyDegatRouge_7: -50386851847952911
+      BobbyDegatRouge_8: 2020217966816751522
+      BobbyDegatRouge_9: 413317092543918203
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
