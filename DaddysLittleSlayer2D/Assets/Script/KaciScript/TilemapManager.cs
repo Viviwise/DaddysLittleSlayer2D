@@ -219,23 +219,28 @@ public class TilemapManager: MonoBehaviour
 
     private void Update()
     {
-        if (_isMoving)
+       
+        if (_isMoving && !_isAttacking)
         {
             PlayerMovement();
         }
-       
     }
     
-    private   void PlayerMovement()
+    private void PlayerMovement()
     {
+        
+        if (!_isMoving || _isAttacking)
+        {
+            return;
+        }
+
         if (Input.GetMouseButtonDown(0))
         {
             Debug.Log($"Update mousePosition:{Input.mousePosition}");
-            
-            // ReSharper disable once Unity.PerformanceCriticalCodeCameraMain
+
             Camera cameraMain = Camera.main;
             if (!cameraMain) return;
-            
+
             Debug.Log($"Update cameraMain:{cameraMain}");
             Vector3 mouseWorldPos = cameraMain.ScreenToWorldPoint(Input.mousePosition);
             mouseWorldPos.z = 0;
@@ -250,15 +255,15 @@ public class TilemapManager: MonoBehaviour
     public void SetEnabledMouvement()
     {
         Init(); 
-        
         if (!_isMoving && _isAttacking)
         {
             _isAttacking = false;
+            Debug.Log("Mode attaque désactivé automatiquement");
         }
-        
+
         _isMoving = !_isMoving;
         Debug.Log($"Mouvement {(_isMoving ? "activé" : "désactivé")}");
-        
+
         if (_isMoving)
         {
             DrawWalkableRange(GetWalkableRange());
@@ -272,10 +277,14 @@ public class TilemapManager: MonoBehaviour
     public void SetAttackMode(bool enabled)
     {
         _isAttacking = enabled;
+        Debug.Log($"Mode attaque {(enabled ? "activé" : "désactivé")}");
+
         
         if (enabled && _isMoving)
         {
             _isMoving = false;
+            overlayTilemap.ClearAllTiles(); 
+            Debug.Log("Mode mouvement désactivé automatiquement");
         }
     }
     
@@ -306,9 +315,21 @@ public class TilemapManager: MonoBehaviour
     }
     private void MovePlayerTo(int index)
     {
-        var values = GetWalkableRange();
-        if (values[index] == 0) return;
+        if (!_isMoving || _isAttacking)
+        {
+            Debug.Log("Mouvement annulé - mode non actif");
+            return;
+        }
 
+        var values = GetWalkableRange();
+        if (values[index] == 0)
+        {
+            Debug.Log("Case non accessible");
+            return;
+        }
+
+        _isMoving = false;
+    
         List<int> path = new List<int>();
         int currentIndex = index;
         path.Add(currentIndex);
@@ -329,9 +350,8 @@ public class TilemapManager: MonoBehaviour
         for (int i = 0; i < path.Count; i++)
         {
             Vector3 worldPos = GetWorldPos(path[i]);
-        
             Vector3 targetPos = worldPos;
-        
+
             moveSequence.AppendCallback(() =>
             {
                 if (PlayerAnimatior.instance != null)
@@ -339,7 +359,7 @@ public class TilemapManager: MonoBehaviour
                     PlayerAnimatior.instance.UpdateAnimation(targetPos);
                 }
             });
-        
+
             moveSequence.Append(player.transform.DOMove(worldPos, 0.2f)
                 .SetEase(Ease.Linear) 
                 .OnUpdate(() => 
@@ -355,14 +375,13 @@ public class TilemapManager: MonoBehaviour
         moveSequence.OnComplete(() => 
         {
             Debug.Log("Move finished");
-            
+
             if (PlayerAnimatior.instance != null)
             {
                 PlayerAnimatior.instance.StopAnimation();
             }
         });
     }
-
 
     
     public void DrawHighlight(int index, int value)

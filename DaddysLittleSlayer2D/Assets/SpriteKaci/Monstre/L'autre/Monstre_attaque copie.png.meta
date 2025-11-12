@@ -1,0 +1,847 @@
+fileFormatVersion: 2
+guid: 6a054c4da99d7869db55740074f9153e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3128992189230189118
+    second: Monstre_attaque copie_0
+  - first:
+      213: -3209630103705841258
+    second: Monstre_attaque copie_1
+  - first:
+      213: 3741635021639061076
+    second: Monstre_attaque copie_2
+  - first:
+      213: 5421621164733391111
+    second: Monstre_attaque copie_3
+  - first:
+      213: -8946831505096180000
+    second: Monstre_attaque copie_4
+  - first:
+      213: 1724748176542438829
+    second: Monstre_attaque copie_5
+  - first:
+      213: -279344225445065387
+    second: Monstre_attaque copie_6
+  - first:
+      213: 7230274123825259035
+    second: Monstre_attaque copie_7
+  - first:
+      213: 8210982423248292288
+    second: Monstre_attaque copie_8
+  - first:
+      213: -6651715495269084859
+    second: Monstre_attaque copie_9
+  - first:
+      213: -659290871963997695
+    second: Monstre_attaque copie_10
+  - first:
+      213: 5463561614329292398
+    second: Monstre_attaque copie_11
+  - first:
+      213: 4791181610557967479
+    second: Monstre_attaque copie_12
+  - first:
+      213: 4097062762515608242
+    second: Monstre_attaque copie_13
+  - first:
+      213: -9096185599481372014
+    second: Monstre_attaque copie_14
+  - first:
+      213: -759437051659261974
+    second: Monstre_attaque copie_15
+  - first:
+      213: 5727215107473099230
+    second: Monstre_attaque copie_16
+  - first:
+      213: 6686193104299498803
+    second: Monstre_attaque copie_17
+  - first:
+      213: -4467212010189911386
+    second: Monstre_attaque copie_18
+  - first:
+      213: 6198698167229895868
+    second: Monstre_attaque copie_19
+  - first:
+      213: 4996292974868402011
+    second: Monstre_attaque copie_20
+  - first:
+      213: -5919452155535384711
+    second: Monstre_attaque copie_21
+  - first:
+      213: 8032918522361505957
+    second: Monstre_attaque copie_22
+  - first:
+      213: -791952326557783486
+    second: Monstre_attaque copie_23
+  - first:
+      213: -2693001963197320111
+    second: Monstre_attaque copie_24
+  - first:
+      213: 3669963599318238904
+    second: Monstre_attaque copie_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Monstre_attaque copie_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 262
+        width: 126
+        height: 374
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c576f79e269394d0800000000000000
+      internalID: -3128992189230189118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstre_attaque copie_1
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 385
+        width: 126
+        height: 252
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69196301d6a1573d0800000000000000
+      internalID: -3209630103705841258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstre_attaque copie_2
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 385
+        width: 125
+        height: 252
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45e05f76a35fce330800000000000000
+      internalID: 3741635021639061076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstre_attaque copie_3
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 386
+        width: 123
+        height: 251
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7016cae69b77d3b40800000000000000
+      internalID: 5421621164733391111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstre_attaque copie_4
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 388
+        width: 123
+        height: 246
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eef771062876d380800000000000000
+      internalID: -8946831505096180000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstre_attaque copie_5
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 388
+        width: 122
+        height: 246
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da590d514598fe710800000000000000
+      internalID: 1724748176542438829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstre_attaque copie_6
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 391
+        width: 121
+        height: 245
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55d4a4038e19f1cf0800000000000000
+      internalID: -279344225445065387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstre_attaque copie_7
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 391
+        width: 120
+        height: 246
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b12ad4b0208175460800000000000000
+      internalID: 7230274123825259035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstre_attaque copie_8
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 133
+        width: 116
+        height: 245
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c9c0b2a20543f170800000000000000
+      internalID: 8210982423248292288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstre_attaque copie_9
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 135
+        width: 118
+        height: 243
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5415685dffb50b3a0800000000000000
+      internalID: -6651715495269084859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstre_attaque copie_10
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 137
+        width: 122
+        height: 240
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10aadece17ab9d6f0800000000000000
+      internalID: -659290871963997695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstre_attaque copie_11
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 260
+        width: 125
+        height: 120
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e66ae8e475872db40800000000000000
+      internalID: 5463561614329292398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstre_attaque copie_12
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 264
+        width: 124
+        height: 116
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77c01bf3a42bd7240800000000000000
+      internalID: 4791181610557967479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstre_attaque copie_13
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 134
+        width: 121
+        height: 244
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b2393610e0bbd830800000000000000
+      internalID: 4097062762515608242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstre_attaque copie_14
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 131
+        width: 118
+        height: 250
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 292a3e3146bd3c180800000000000000
+      internalID: -9096185599481372014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstre_attaque copie_15
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 138
+        width: 115
+        height: 122
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae764927600f575f0800000000000000
+      internalID: -759437051659261974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstre_attaque copie_16
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 133
+        width: 113
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed94f21dbc72b7f40800000000000000
+      internalID: 5727215107473099230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstre_attaque copie_17
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 131
+        width: 115
+        height: 127
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33d107114312acc50800000000000000
+      internalID: 6686193104299498803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstre_attaque copie_18
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 4
+        width: 118
+        height: 121
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aa854458564102c0800000000000000
+      internalID: -4467212010189911386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstre_attaque copie_19
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 0
+        width: 117
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb45a971423360650800000000000000
+      internalID: 6198698167229895868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstre_attaque copie_20
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1
+        width: 119
+        height: 126
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5f8fc83df5665540800000000000000
+      internalID: 4996292974868402011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstre_attaque copie_21
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 2
+        width: 120
+        height: 123
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97f946c80a1e9dda0800000000000000
+      internalID: -5919452155535384711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstre_attaque copie_22
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 0
+        width: 121
+        height: 125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a8630bf5d8aa7f60800000000000000
+      internalID: 8032918522361505957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstre_attaque copie_23
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 0
+        width: 122
+        height: 124
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24aaa701e8b6205f0800000000000000
+      internalID: -791952326557783486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstre_attaque copie_24
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 1
+        width: 124
+        height: 124
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 154b13c8bf880aad0800000000000000
+      internalID: -2693001963197320111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monstre_attaque copie_25
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 2
+        width: 125
+        height: 123
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b64af303745ee230800000000000000
+      internalID: 3669963599318238904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 324f49c98e49c1c24b5c5db76a065a42
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":5.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Monstre_attaque copie_0: -3128992189230189118
+      Monstre_attaque copie_1: -3209630103705841258
+      Monstre_attaque copie_10: -659290871963997695
+      Monstre_attaque copie_11: 5463561614329292398
+      Monstre_attaque copie_12: 4791181610557967479
+      Monstre_attaque copie_13: 4097062762515608242
+      Monstre_attaque copie_14: -9096185599481372014
+      Monstre_attaque copie_15: -759437051659261974
+      Monstre_attaque copie_16: 5727215107473099230
+      Monstre_attaque copie_17: 6686193104299498803
+      Monstre_attaque copie_18: -4467212010189911386
+      Monstre_attaque copie_19: 6198698167229895868
+      Monstre_attaque copie_2: 3741635021639061076
+      Monstre_attaque copie_20: 4996292974868402011
+      Monstre_attaque copie_21: -5919452155535384711
+      Monstre_attaque copie_22: 8032918522361505957
+      Monstre_attaque copie_23: -791952326557783486
+      Monstre_attaque copie_24: -2693001963197320111
+      Monstre_attaque copie_25: 3669963599318238904
+      Monstre_attaque copie_3: 5421621164733391111
+      Monstre_attaque copie_4: -8946831505096180000
+      Monstre_attaque copie_5: 1724748176542438829
+      Monstre_attaque copie_6: -279344225445065387
+      Monstre_attaque copie_7: 7230274123825259035
+      Monstre_attaque copie_8: 8210982423248292288
+      Monstre_attaque copie_9: -6651715495269084859
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
