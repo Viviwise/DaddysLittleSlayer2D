@@ -2,6 +2,8 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
+
 
 public enum BattleState { START, PLAYERTURN, ENNEMYTURN, WON, LOST }
 
@@ -73,7 +75,6 @@ public class BattleSystem : MonoBehaviour
 
         state = BattleState.PLAYERTURN;
         PlayerTurn();
-        
     }
     
 
@@ -154,6 +155,7 @@ public class BattleSystem : MonoBehaviour
             state = BattleState.ENNEMYTURN;
             StartCoroutine(EnemyTurn());
         }
+        
     }
     public void OnAttack1Button()
     {
@@ -260,9 +262,24 @@ public class BattleSystem : MonoBehaviour
     void EndBattle()
     {
         if (state == BattleState.WON)
+        {
             dialogueText.text = "Tu as vaincu le " + ennemyUnit.unitName;
-
+        }
         else if (state == BattleState.LOST)
+        {
             dialogueText.text = "Tu as été dévoré par " + ennemyUnit.unitName;
+
+            StartCoroutine(DeathSequence());
+        }
     }
+    
+    IEnumerator DeathSequence()
+    {
+        yield return new WaitForSeconds(2f);
+
+        yield return StartCoroutine(playerHUD.FadeToBlack(3f));
+
+        SceneManager.LoadScene("DeathScene");
+    }
+
 }
