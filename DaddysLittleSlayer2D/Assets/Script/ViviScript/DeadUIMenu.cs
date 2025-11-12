@@ -9,6 +9,5 @@ public class DeadUIMenu : MonoBehaviour
     public void ReloadGame()
     {
         SceneManager.LoadScene("ViviScene");
-
     }
 }
