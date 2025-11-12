@@ -212,9 +212,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ItemSlot
   itemName: Carotte
-  quantity: 2
-  itemSprite: {fileID: 4007160771572727552, guid: 77a57535613c01b43b59d3ac19123cad, type: 3}
-  isFull: 0
+  quantity: 0
+  itemSprite: {fileID: -5922404102143951862, guid: fdd24ccff6e4c794abc690a4aeae277a, type: 3}
+  isFull: 1
   itemDescription: Carotte
   emptySprite: {fileID: 0}
   maxNumberOfItems: 9

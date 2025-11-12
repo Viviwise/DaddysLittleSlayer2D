@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "NewItem", menuName = "RPG/Item")]
+[CreateAssetMenu(fileName = "NewItem", menuName = "LupeniItem")]
 public class InventoryItemData : ScriptableObject
 {
 
@@ -18,16 +18,6 @@ public class InventoryItemData : ScriptableObject
 
     public void Use()
     {
-       
-
-
+        
     }
-
-    /*public void DeselectAllSlots()
-    {
-        for (int i = 0; i < inventoryItemUI.Length; i++)
-        {
-           
-        }
-    }*/
 }
