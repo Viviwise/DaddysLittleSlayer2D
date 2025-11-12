@@ -1,0 +1,1418 @@
+fileFormatVersion: 2
+guid: e1ad67129fb4ae9d3945f7b138ff8cea
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -963620248037069663
+    second: Dona_Walk v2_0
+  - first:
+      213: -256348280814909852
+    second: Dona_Walk v2_1
+  - first:
+      213: -2257350063825101819
+    second: Dona_Walk v2_2
+  - first:
+      213: -7970745402658620364
+    second: Dona_Walk v2_3
+  - first:
+      213: -1453317802826525384
+    second: Dona_Walk v2_4
+  - first:
+      213: 3471780697829307591
+    second: Dona_Walk v2_5
+  - first:
+      213: 1155266070894388161
+    second: Dona_Walk v2_6
+  - first:
+      213: 6527669159679776510
+    second: Dona_Walk v2_7
+  - first:
+      213: 1157152214691066821
+    second: Dona_Walk v2_8
+  - first:
+      213: -2826559517409422917
+    second: Dona_Walk v2_9
+  - first:
+      213: 2242264737867931448
+    second: Dona_Walk v2_10
+  - first:
+      213: -4730348399581190759
+    second: Dona_Walk v2_11
+  - first:
+      213: 5407387071413225624
+    second: Dona_Walk v2_12
+  - first:
+      213: -3615312768359227450
+    second: Dona_Walk v2_13
+  - first:
+      213: -5679829133461014440
+    second: Dona_Walk v2_14
+  - first:
+      213: -3372417760149850721
+    second: Dona_Walk v2_15
+  - first:
+      213: 2541152268002247155
+    second: Dona_Walk v2_16
+  - first:
+      213: -248163128781954437
+    second: Dona_Walk v2_17
+  - first:
+      213: -1730703178124449029
+    second: Dona_Walk v2_18
+  - first:
+      213: 4996247952699855960
+    second: Dona_Walk v2_19
+  - first:
+      213: 5463870655499986813
+    second: Dona_Walk v2_20
+  - first:
+      213: -8473004641146648175
+    second: Dona_Walk v2_21
+  - first:
+      213: 7393040910623809047
+    second: Dona_Walk v2_22
+  - first:
+      213: 6603186757824571678
+    second: Dona_Walk v2_23
+  - first:
+      213: -8857939382018720941
+    second: Dona_Walk v2_24
+  - first:
+      213: 2460534375289057442
+    second: Dona_Walk v2_25
+  - first:
+      213: -8463185001012078753
+    second: Dona_Walk v2_26
+  - first:
+      213: -4949317116266428508
+    second: Dona_Walk v2_27
+  - first:
+      213: 5312632891795822054
+    second: Dona_Walk v2_28
+  - first:
+      213: -682588372388276542
+    second: Dona_Walk v2_29
+  - first:
+      213: 7616449187442722513
+    second: Dona_Walk v2_30
+  - first:
+      213: 451102397045298655
+    second: Dona_Walk v2_31
+  - first:
+      213: -4989116663955780835
+    second: Dona_Walk v2_32
+  - first:
+      213: 3079582123688843339
+    second: Dona_Walk v2_33
+  - first:
+      213: 1645307581746552071
+    second: Dona_Walk v2_34
+  - first:
+      213: 7422543352500533475
+    second: Dona_Walk v2_35
+  - first:
+      213: 111469055308787446
+    second: Dona_Walk v2_36
+  - first:
+      213: 1162474013470502045
+    second: Dona_Walk v2_37
+  - first:
+      213: -2329160040800132788
+    second: Dona_Walk v2_38
+  - first:
+      213: 4795005001140382176
+    second: Dona_Walk v2_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 256
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dona_Walk v2_0
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 2342
+        width: 105
+        height: 176
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ac60696d7880a2f0800000000000000
+      internalID: -963620248037069663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dona_Walk v2_1
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 2342
+        width: 135
+        height: 176
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 466ce37c894417cf0800000000000000
+      internalID: -256348280814909852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dona_Walk v2_2
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 2342
+        width: 134
+        height: 177
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50cdfffa3184ca0e0800000000000000
+      internalID: -2257350063825101819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dona_Walk v2_3
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 2342
+        width: 133
+        height: 177
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c747f7949326190800000000000000
+      internalID: -7970745402658620364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dona_Walk v2_4
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2086
+        width: 101
+        height: 177
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83516c88827c4dbe0800000000000000
+      internalID: -1453317802826525384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dona_Walk v2_5
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 2175
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c47c20862e3e2030800000000000000
+      internalID: 3471780697829307591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dona_Walk v2_6
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 2086
+        width: 131
+        height: 177
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c3a8b0ee54580010800000000000000
+      internalID: 1155266070894388161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dona_Walk v2_7
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 2175
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef65cf10480f69a50800000000000000
+      internalID: 6527669159679776510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dona_Walk v2_8
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 2086
+        width: 129
+        height: 177
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c3b7b3fec70f0010800000000000000
+      internalID: 1157152214691066821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dona_Walk v2_9
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 2086
+        width: 98
+        height: 177
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb1df4c381b06c8d0800000000000000
+      internalID: -2826559517409422917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dona_Walk v2_10
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1831
+        width: 99
+        height: 176
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83f900926ef1e1f10800000000000000
+      internalID: 2242264737867931448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dona_Walk v2_11
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1831
+        width: 133
+        height: 176
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 995202b613d6a5eb0800000000000000
+      internalID: -4730348399581190759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dona_Walk v2_12
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1831
+        width: 133
+        height: 176
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89800a254e5ea0b40800000000000000
+      internalID: 5407387071413225624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dona_Walk v2_13
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 1830
+        width: 97
+        height: 177
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cf93022134d3ddc0800000000000000
+      internalID: -3615312768359227450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dona_Walk v2_14
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1663
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85834230f713d21b0800000000000000
+      internalID: -5679829133461014440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dona_Walk v2_15
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1574
+        width: 89
+        height: 178
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f95bc0c3ae3c231d0800000000000000
+      internalID: -3372417760149850721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dona_Walk v2_16
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1574
+        width: 133
+        height: 178
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f1c37e268cf34320800000000000000
+      internalID: 2541152268002247155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dona_Walk v2_17
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1663
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b722a9ef2f85e8cf0800000000000000
+      internalID: -248163128781954437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dona_Walk v2_18
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1574
+        width: 123
+        height: 178
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfaa04011ae4bf7e0800000000000000
+      internalID: -1730703178124449029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dona_Walk v2_19
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 1574
+        width: 132
+        height: 178
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 854927eaa0d365540800000000000000
+      internalID: 4996247952699855960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dona_Walk v2_20
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1318
+        width: 97
+        height: 178
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d77e1cf896193db40800000000000000
+      internalID: 5463870655499986813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dona_Walk v2_21
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1318
+        width: 133
+        height: 178
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 199c738bb27d96a80800000000000000
+      internalID: -8473004641146648175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dona_Walk v2_22
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1318
+        width: 133
+        height: 178
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71e99a7c98b599660800000000000000
+      internalID: 7393040910623809047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dona_Walk v2_23
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 1318
+        width: 97
+        height: 178
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1962bdfe5b33ab50800000000000000
+      internalID: 6603186757824571678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dona_Walk v2_24
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1151
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35bb4dc3017421580800000000000000
+      internalID: -8857939382018720941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dona_Walk v2_25
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 1062
+        width: 91
+        height: 177
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a0fdb45af2952220800000000000000
+      internalID: 2460534375289057442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dona_Walk v2_26
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1062
+        width: 133
+        height: 177
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f57d24ad41abc8a80800000000000000
+      internalID: -8463185001012078753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dona_Walk v2_27
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 1062
+        width: 133
+        height: 177
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a7cd2c2e4e705bb0800000000000000
+      internalID: -4949317116266428508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dona_Walk v2_28
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 1062
+        width: 132
+        height: 177
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e5db81b7734ab940800000000000000
+      internalID: 5312632891795822054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dona_Walk v2_29
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 806
+        width: 97
+        height: 177
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c61cf7ed75f686f0800000000000000
+      internalID: -682588372388276542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dona_Walk v2_30
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 895
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d6065bae2013b960800000000000000
+      internalID: 7616449187442722513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dona_Walk v2_31
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 806
+        width: 126
+        height: 177
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd556357d33a24600800000000000000
+      internalID: 451102397045298655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dona_Walk v2_32
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 895
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1b0fedd3d813cab0800000000000000
+      internalID: -4989116663955780835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dona_Walk v2_33
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 806
+        width: 125
+        height: 177
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b48dd1b00afdcba20800000000000000
+      internalID: 3079582123688843339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dona_Walk v2_34
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 806
+        width: 96
+        height: 177
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70d9244478e45d610800000000000000
+      internalID: 1645307581746552071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dona_Walk v2_35
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 550
+        width: 97
+        height: 177
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e83bbf4adb220760800000000000000
+      internalID: 7422543352500533475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dona_Walk v2_36
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 550
+        width: 133
+        height: 177
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fee025e3840c8100800000000000000
+      internalID: 111469055308787446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dona_Walk v2_37
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 550
+        width: 133
+        height: 177
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9c2889c4ffe12010800000000000000
+      internalID: 1162474013470502045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dona_Walk v2_38
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 550
+        width: 95
+        height: 177
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c41e21788492dafd0800000000000000
+      internalID: -2329160040800132788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dona_Walk v2_39
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 383
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e9a13db4a74b8240800000000000000
+      internalID: 4795005001140382176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dona_Walk v2_40
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 294
+        width: 87
+        height: 177
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3106c7b7fe2d54e7facd6ab6c897ea14
+      internalID: -963218393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dona_Walk v2_41
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 294
+        width: 133
+        height: 177
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255fa49de3698c98c8462d4d3850286e
+      internalID: 469033579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dona_Walk v2_42
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 383
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c9ce8612e8855a28869e2e1c7c1b41
+      internalID: 1134247766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dona_Walk v2_43
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 293
+        width: 124
+        height: 178
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8672b81e3adaf97bb40af0da6e5fea4
+      internalID: 752674064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dona_Walk v2_44
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 293
+        width: 132
+        height: 178
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf5261ce8646ee65be4f3e6651531e5
+      internalID: -2138474153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dona_Walk v2_45
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 38
+        width: 97
+        height: 177
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca2f5d8edfd1d1d7bb6d0541eb10518
+      internalID: 354629421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dona_Walk v2_46
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 38
+        width: 133
+        height: 176
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4404d25f01e5d5aafbac12489064fa58
+      internalID: -1198603482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dona_Walk v2_47
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 38
+        width: 133
+        height: 176
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8991f1a151962fa56822a00d009aa6f2
+      internalID: 151482627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dona_Walk v2_48
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 38
+        width: 101
+        height: 176
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca6ab5dc3d4c824028cc3b58d575beff
+      internalID: -269088016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b82767e918137d75bb5901fe72071012
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":109.0,"y":203.0},"gridSpriteOffset":{"x":77.0,"y":0.0},"gridSpritePadding":{"x":154.0,"y":59.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":1,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Dona_Walk v2_0: -963620248037069663
+      Dona_Walk v2_1: -256348280814909852
+      Dona_Walk v2_10: 2242264737867931448
+      Dona_Walk v2_11: -4730348399581190759
+      Dona_Walk v2_12: 5407387071413225624
+      Dona_Walk v2_13: -3615312768359227450
+      Dona_Walk v2_14: -5679829133461014440
+      Dona_Walk v2_15: -3372417760149850721
+      Dona_Walk v2_16: 2541152268002247155
+      Dona_Walk v2_17: -248163128781954437
+      Dona_Walk v2_18: -1730703178124449029
+      Dona_Walk v2_19: 4996247952699855960
+      Dona_Walk v2_2: -2257350063825101819
+      Dona_Walk v2_20: 5463870655499986813
+      Dona_Walk v2_21: -8473004641146648175
+      Dona_Walk v2_22: 7393040910623809047
+      Dona_Walk v2_23: 6603186757824571678
+      Dona_Walk v2_24: -8857939382018720941
+      Dona_Walk v2_25: 2460534375289057442
+      Dona_Walk v2_26: -8463185001012078753
+      Dona_Walk v2_27: -4949317116266428508
+      Dona_Walk v2_28: 5312632891795822054
+      Dona_Walk v2_29: -682588372388276542
+      Dona_Walk v2_3: -7970745402658620364
+      Dona_Walk v2_30: 7616449187442722513
+      Dona_Walk v2_31: 451102397045298655
+      Dona_Walk v2_32: -4989116663955780835
+      Dona_Walk v2_33: 3079582123688843339
+      Dona_Walk v2_34: 1645307581746552071
+      Dona_Walk v2_35: 7422543352500533475
+      Dona_Walk v2_36: 111469055308787446
+      Dona_Walk v2_37: 1162474013470502045
+      Dona_Walk v2_38: -2329160040800132788
+      Dona_Walk v2_39: 4795005001140382176
+      Dona_Walk v2_4: -1453317802826525384
+      Dona_Walk v2_40: -963218393
+      Dona_Walk v2_41: 469033579
+      Dona_Walk v2_42: 1134247766
+      Dona_Walk v2_43: 752674064
+      Dona_Walk v2_44: -2138474153
+      Dona_Walk v2_45: 354629421
+      Dona_Walk v2_46: -1198603482
+      Dona_Walk v2_47: 151482627
+      Dona_Walk v2_48: -269088016
+      Dona_Walk v2_5: 3471780697829307591
+      Dona_Walk v2_6: 1155266070894388161
+      Dona_Walk v2_7: 6527669159679776510
+      Dona_Walk v2_8: 1157152214691066821
+      Dona_Walk v2_9: -2826559517409422917
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

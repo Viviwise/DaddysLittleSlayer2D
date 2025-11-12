@@ -1,10 +1,11 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class BattleHUD : MonoBehaviour
 {
-   public Text nameText;
-   public Text levelText;
+   public TextMeshProUGUI nameText;
+   public TextMeshProUGUI levelText;
    public Slider pvSlider;
 
    public void SetHUD(Unit unit)

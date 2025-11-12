@@ -34,12 +34,12 @@ public class BattleSystem : MonoBehaviour
     public Button attack2Button;
     
     // bool pour l'animator
-    private bool monsterIsAttacking;
-    private bool monsterIsHurted;
+    private bool _monsterIsAttacking;
+    private bool _monsterIsHurted;
     
-    private bool playerIsAttacking;
-    private bool playerIsHealing;
-    private bool playerIsHurted;
+    private bool _playerIsAttacking;
+    private bool _playerIsHealing;
+    private bool _playerIsHurted;
     
     void Start()
     {
@@ -127,7 +127,7 @@ public class BattleSystem : MonoBehaviour
 
     IEnumerator PlayerAttack(int damage, int damageMyself)
     {
-        playerIsAttacking =  true;
+        _playerIsAttacking =  true;
         
         attack1Button.gameObject.SetActive(false);
         attack2Button.gameObject.SetActive(false);
@@ -142,7 +142,7 @@ public class BattleSystem : MonoBehaviour
 
         yield return new WaitForSeconds(1.5f);
 
-        monsterIsHurted = true;
+        _monsterIsHurted = true;
 
         if (isDead)
         {
@@ -206,7 +206,7 @@ public class BattleSystem : MonoBehaviour
     
     IEnumerator PlayerHeal(ItemData healItem)
     {      
-        playerIsHealing = true;
+        _playerIsHealing = true;
         
         playerUnit.Heal(healItem.healAmount);
 
@@ -227,7 +227,7 @@ public class BattleSystem : MonoBehaviour
     {
         dialogueText.text = ennemyUnit.unitName + " attaque !";
         
-        monsterIsAttacking = true;
+        _monsterIsAttacking = true;
         
         yield return new WaitForSeconds(1f);
 
@@ -237,7 +237,7 @@ public class BattleSystem : MonoBehaviour
 
         yield return new WaitForSeconds(1f);
         
-        playerIsHurted = true;
+        _playerIsHurted = true;
 
         if (isDead)
         {

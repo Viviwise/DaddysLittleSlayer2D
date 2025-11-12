@@ -16,10 +16,10 @@ MonoBehaviour:
   itemType: 0
   attack1:
     attackName: "Fl\xE8che explosive"
-    damage: 4
+    damage: 20
     damageMyself: 2
   attack2:
     attackName: Picotage
-    damage: 1
+    damage: 20
     damageMyself: 0
   healAmount: 0

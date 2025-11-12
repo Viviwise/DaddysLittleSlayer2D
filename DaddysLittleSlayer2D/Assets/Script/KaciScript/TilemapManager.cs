@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using DG.Tweening;
+using Script;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 using ColorUtility = Unity.VisualScripting.ColorUtility;
@@ -12,18 +13,23 @@ public class TilemapManager: MonoBehaviour
     public Tilemap overlayTilemap;
     public Tile highlightTile;
     public Tile[] obstacleTiles;
+    
     public GameObject player;
+    public int playerRange = 3;
+    private PlayerAnimatior playerAnimController;
+
+    
     public bool isInit;
     private bool _isMoving = false ;
     private bool _isAttacking = false;
-    public int playerRange = 3;
+    
 
     private Tile[] _highlightTiles;
     public  BoundsInt bounds;
     private bool[] _walkableCells;
     public  int width;
     private int[] _possibleCells;
-    [SerializeField] private static TilemapManager instance { get; set; }
+    public static TilemapManager instance { get; set; }
     
 
     private void Awake()
@@ -68,7 +74,12 @@ public class TilemapManager: MonoBehaviour
         if (!overlayTilemap) throw new ArgumentNullException(nameof(overlayTilemap));
         if (!highlightTile) throw new ArgumentNullException(nameof(highlightTile));
         if (!player) throw new ArgumentNullException(nameof(player));
-
+        
+        playerAnimController = player.GetComponent<PlayerAnimatior>();
+        if (!playerAnimController)
+        {
+            playerAnimController = player.AddComponent<PlayerAnimatior>();
+        }
         InitWalkableCells();
     }
 
@@ -141,6 +152,7 @@ public class TilemapManager: MonoBehaviour
     public bool IsInAttackMode => _isAttacking;
     
 
+    // ReSharper disable Unity.PerformanceAnalysis
     int[] GetWalkableRange()
     {
         InitWalkableCells();
@@ -292,44 +304,66 @@ public class TilemapManager: MonoBehaviour
 
         throw new Exception("No next step index ???");
     }
-
     private void MovePlayerTo(int index)
     {
         var values = GetWalkableRange();
         if (values[index] == 0) return;
-        
+
         List<int> path = new List<int>();
-    
         int currentIndex = index;
         path.Add(currentIndex);
-    
+
         while (values[currentIndex] > 1)
         {
             currentIndex = FindNextStepInPath(currentIndex, values);
             path.Add(currentIndex);
         }
-    
+
         path.Reverse();
-        
         Debug.Log($"Move playerTo:{index} path:{string.Join(",", path)}");
-        
+
         overlayTilemap.ClearAllTiles();
-        
+
         Sequence moveSequence = DOTween.Sequence();
-    
-        foreach (int pathIndex in path)
+
+        for (int i = 0; i < path.Count; i++)
         {
-            Vector3 worldPos = GetWorldPos(pathIndex);
-            moveSequence.Append(player.transform.DOMove(worldPos, 0.05f));
+            Vector3 worldPos = GetWorldPos(path[i]);
+        
+            Vector3 targetPos = worldPos;
+        
+            moveSequence.AppendCallback(() =>
+            {
+                if (PlayerAnimatior.instance != null)
+                {
+                    PlayerAnimatior.instance.UpdateAnimation(targetPos);
+                }
+            });
+        
+            moveSequence.Append(player.transform.DOMove(worldPos, 0.2f)
+                .SetEase(Ease.Linear) 
+                .OnUpdate(() => 
+                {
+                    if (PlayerAnimatior.instance != null)
+                    {
+                        PlayerAnimatior.instance.UpdateAnimationFromMovement();
+                    }
+                })
+            );
         }
-    
+
         moveSequence.OnComplete(() => 
         {
-            
             Debug.Log("Move finished");
+            
+            if (PlayerAnimatior.instance != null)
+            {
+                PlayerAnimatior.instance.StopAnimation();
+            }
         });
-        
     }
+
+
     
     public void DrawHighlight(int index, int value)
     {
