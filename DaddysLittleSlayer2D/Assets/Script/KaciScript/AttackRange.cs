@@ -35,49 +35,54 @@ namespace Script
             {
                 Camera cameraMain = Camera.main;
                 if (!cameraMain) return;
-                
+        
                 Vector3 mouseWorldPos = cameraMain.ScreenToWorldPoint(Input.mousePosition);
                 mouseWorldPos.z = 0;
-                
+        
                 int clickedIndex = tilemapManager.GetIndex(mouseWorldPos);
-                
                 int[] attackRangeArray = GetAttackRange();
-                
+        
                 if (clickedIndex >= 0 && clickedIndex < attackRangeArray.Length && attackRangeArray[clickedIndex] > 0)
                 {
                     Vector3 targetPos = tilemapManager.GetWorldPos(clickedIndex);
-                    
-                    if (DetectEnemy(targetPos))
+            
+                    Enemy enemy = DetectEnemy(targetPos);
+                    if (enemy != null)
                     {
-                        Debug.Log(" Ennemi détecté ");
-                        return;
+                        Debug.Log("Ennemi détecté ! Démarrage du combat.");
+                
+                        // LANCER LE COMBAT
+                        GameManager.Instance.StartBattle(enemy);
+                
+                        tilemapManager.overlayTilemap.ClearAllTiles();
+                        _isAttacking = false;
                     }
                     else
                     {
-                        Debug.Log(" Pas d'ennemi");
-                        tilemapManager.overlayTilemap.ClearAllTiles();
+                        Debug.Log("Pas d'ennemi à cette position");
                     }
                 }
             }
         }
 
-        private bool DetectEnemy(Vector3 position)
+        private Enemy DetectEnemy(Vector3 position)
         {
             Collider2D[] colliders = Physics2D.OverlapCircleAll(position, detectionRadius);
-    
+
             foreach (Collider2D collider in colliders)
             {
                 if (collider == null) continue;
-        
+
                 Enemy enemy = collider.GetComponent<Enemy>();
                 if (enemy != null)
                 {
-                    return true; 
+                    return enemy; // RETOURNER L'ENNEMI au lieu de bool
                 }
             }
-    
-            return false; 
+
+            return null;
         }
+
 
 
         public void ToogleAttack()

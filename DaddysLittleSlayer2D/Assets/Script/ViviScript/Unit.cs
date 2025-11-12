@@ -10,6 +10,8 @@ public class Unit : MonoBehaviour
     public int damage;       
     public int maxPV;
     public int currentPV;
+    
+    public Animator animator;
 
     [Header("Equipment")]
     public ItemData equippedItem; 
@@ -24,6 +26,11 @@ public class Unit : MonoBehaviour
     public bool TakeDamage(int dmg)
     {
         currentPV -= dmg;
+        if (animator != null)
+        {
+            animator.SetTrigger("Hit");
+        }
+
         if (currentPV <= 0)
         {
             currentPV = 0;

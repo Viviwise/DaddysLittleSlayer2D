@@ -223,7 +223,7 @@ public class BattleSystem : MonoBehaviour
 
         yield return new WaitForSeconds(1.5f);
 
-        monsterIsHurted = true;
+        _monsterIsHurted = true;
 
         if (isDead)
         {
