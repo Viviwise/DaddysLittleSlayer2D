@@ -14,14 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::InventoryItemData
   itemName: Fraise
   itemDescription: HBhjcvehf
-  itemType: 1
+  itemType: 0
   attack1:
-    attackName: 
-    damage: 0
+    attackName: hbkjefbhgyfec
+    damage: 20
     damageMyself: 0
   attack2:
-    attackName: 
-    damage: 0
+    attackName: hgftxdyft
+    damage: 60
     damageMyself: 0
   healAmount: 5
   itemSprite: {fileID: 8105501274055991555, guid: 71ee23896060e5147bd58550b6c9815a, type: 3}
