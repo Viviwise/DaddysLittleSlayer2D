@@ -292,6 +292,7 @@ public class TilemapManager: MonoBehaviour
     {
         var xy = GetXY(currentIndex);
 
+        
         int GetVal(int i) => IsValidIndex(i) && values[i] > 0 ? values[i] : int.MaxValue;
 
         int upIndex = GetIndex(xy + Vector2Int.up);
@@ -306,82 +307,89 @@ public class TilemapManager: MonoBehaviour
 
         int min = Mathf.Min(upVal, downVal, leftVal, rightVal);
 
+        if (min == int.MaxValue)
+            throw new Exception($"Aucun chemin trouvé depuis l'index {currentIndex}");
+
         if (min == upVal) return upIndex;
         if (min == downVal) return downIndex;
         if (min == leftVal) return leftIndex;
-        if (min == rightVal) return rightIndex;
-
-        throw new Exception("No next step index ???");
+        return rightIndex;
     }
-    private void MovePlayerTo(int index)
+
+    private void MovePlayerTo(int targetIndex)
+{
+    if (!_isMoving || _isAttacking)
     {
-        if (!_isMoving || _isAttacking)
-        {
-            Debug.Log("Mouvement annulé - mode non actif");
-            return;
-        }
-
-        var values = GetWalkableRange();
-        if (values[index] == 0)
-        {
-            Debug.Log("Case non accessible");
-            return;
-        }
-
-        _isMoving = false;
-    
-        List<int> path = new List<int>();
-        int currentIndex = index;
-        path.Add(currentIndex);
-
-        while (values[currentIndex] > 1)
-        {
-            currentIndex = FindNextStepInPath(currentIndex, values);
-            path.Add(currentIndex);
-        }
-
-        path.Reverse();
-        Debug.Log($"Move playerTo:{index} path:{string.Join(",", path)}");
-
-        overlayTilemap.ClearAllTiles();
-
-        Sequence moveSequence = DOTween.Sequence();
-
-        for (int i = 0; i < path.Count; i++)
-        {
-            Vector3 worldPos = GetWorldPos(path[i]);
-            Vector3 targetPos = worldPos;
-
-            moveSequence.AppendCallback(() =>
-            {
-                if (PlayerAnimatior.instance != null)
-                {
-                    PlayerAnimatior.instance.UpdateAnimation(targetPos);
-                }
-            });
-
-            moveSequence.Append(player.transform.DOMove(worldPos, 0.2f)
-                .SetEase(Ease.Linear) 
-                .OnUpdate(() => 
-                {
-                    if (PlayerAnimatior.instance != null)
-                    {
-                        PlayerAnimatior.instance.UpdateAnimationFromMovement();
-                    }
-                })
-            );
-        }
-
-        moveSequence.OnComplete(() => 
-        {
-            Debug.Log("Move finished");
-
-            if (PlayerAnimatior.instance != null)
-            {
-                PlayerAnimatior.instance.StopAnimation();
-            }
-        });
+        Debug.Log("Mouvement annulé - mode non actif");
+        return;
     }
+
+    var values = GetWalkableRange();
+    if (values[targetIndex] == 0)
+    {
+        Debug.Log("Case non accessible");
+        return;
+    }
+
+    _isMoving = false;
+    List<int> path = new List<int>();
+    int currentIndex = targetIndex;
+    path.Add(currentIndex);
+
+    while (values[currentIndex] > 1)
+    {
+        currentIndex = FindNextStepInPath(currentIndex, values);
+        path.Add(currentIndex);
+    }
+
+    path.Reverse();
+    overlayTilemap.ClearAllTiles();
+
+    Vector3 previousPosition = player.transform.position;
+
+    Sequence moveSequence = DOTween.Sequence();
+
+    foreach (int stepIndex in path)
+    {
+        Vector3 targetPosition = walkableTilemap.GetCellCenterWorld(
+            new Vector3Int(
+                stepIndex % width + bounds.xMin,
+                stepIndex / width + bounds.yMin,
+                0
+            )
+        );
+
+
+        Vector3 startPos = previousPosition;
+        Vector3 endPos = targetPosition;
+
+        moveSequence.Append(
+            player.transform.DOMove(targetPosition, 0.3f)
+                .SetEase(Ease.Linear)
+                .OnStart(() =>
+                {
+                    Vector3 direction = (endPos - startPos).normalized;
+            
+                    Debug.Log($"🎯 Déplacement de {startPos} → {endPos}");
+                    Debug.Log($"📐 Direction normalisée: {direction}");
+            
+                    PlayerAnimatior.instance?.SetMovementDirection(direction);
+                })
+        );
+
+
+        previousPosition = targetPosition;
+    }
+
+    moveSequence.OnComplete(() =>
+    {
+        if (PlayerAnimatior.instance != null)
+        {
+            PlayerAnimatior.instance.StopAnimation();
+        }
+    });
+}
+
 
     
     public void DrawHighlight(int index, int value)

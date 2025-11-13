@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 namespace Script
@@ -7,85 +6,127 @@ namespace Script
     {
         private Animator animator;
         private SpriteRenderer spriteRenderer;
-        private Vector3 lastPosition;
         public static PlayerAnimatior instance { get; set; }
 
         [Header("Sprite Settings")]
-        [Tooltip("Si le sprite est sur un enfant, assignez-le ici")]
-        public Transform spriteTransform; // Référence au transform du sprite
+        public Transform spriteTransform;
 
-        private static readonly int IsWalking = Animator.StringToHash("IsWalking");
-        private static readonly int IsVertical = Animator.StringToHash("IsVertical");
+        [Header("Debug")]
+        public bool showDebugLogs = true;
 
         private void Awake()
         {
-           
-            if (spriteTransform == null)
-                spriteTransform = transform;
-
-            animator = spriteTransform.GetComponent<Animator>();
-            spriteRenderer = spriteTransform.GetComponent<SpriteRenderer>();
-            
-            lastPosition = transform.position;
-
-            if (instance == null)
-            {
-                instance = this;
-                DontDestroyOnLoad(gameObject);
-            }
-            else
+            if (instance != null && instance != this)
             {
                 Destroy(gameObject);
                 return;
             }
-        }
+            instance = this;
+            DontDestroyOnLoad(gameObject);
 
-        public void UpdateAnimationFromMovement()
-        {
-            Vector3 direction = (transform.position - lastPosition).normalized;
-
-            if (direction.magnitude > 0.01f)
+            if (spriteTransform == null)
             {
-                animator.SetBool(IsWalking, true);
-
-                bool isVertical = Mathf.Abs(direction.y) > Mathf.Abs(direction.x);
-                animator.SetBool(IsVertical, isVertical);
-
-                if (!isVertical)
-                {
-                   
-                    spriteRenderer.flipX = direction.x < 0;
-                }
-            }
-
-            lastPosition = transform.position;
-        }
-
-        public void UpdateAnimation(Vector3 targetPosition)
-        {
-            Vector3 direction = (targetPosition - transform.position).normalized;
-
-            if (direction.magnitude > 0.01f)
-            {
-                animator.SetBool(IsWalking, true);
-
-                bool isVertical = Mathf.Abs(direction.y) > Mathf.Abs(direction.x);
-                animator.SetBool(IsVertical, isVertical);
-
-                if (!isVertical)
-                {
-                    spriteRenderer.flipX = direction.x < 0;
-                }
+                spriteTransform = transform;
+                animator = GetComponentInChildren<Animator>();
+                spriteRenderer = GetComponentInChildren<SpriteRenderer>();
             }
             else
             {
-                animator.SetBool(IsWalking, false);
+                animator = spriteTransform.GetComponent<Animator>();
+                spriteRenderer = spriteTransform.GetComponent<SpriteRenderer>();
+            }
+
+            if (showDebugLogs)
+            {
+                Debug.Log($"✅ PlayerAnimator sur {spriteTransform.name}");
+                Debug.Log($"   Animator: {(animator != null ? "✅" : "❌")}");
+                Debug.Log($"   SpriteRenderer: {(spriteRenderer != null ? "✅" : "❌")}");
+            }
+
+            SetIdle();
+        }
+
+        public void SetMovementDirection(Vector2 direction)
+        {
+            if (animator == null)
+            {
+                Debug.LogError("❌ Animator manquant !");
+                return;
+            }
+
+            if (direction.sqrMagnitude < 0.01f)
+            {
+                SetIdle();
+                return;
+            }
+
+            // Déterminer la direction principale
+            string directionName = GetDirectionName(direction);
+
+            // Activer le mouvement
+            animator.SetBool("IsMoving", true);
+            
+            // Définir la direction (4 bools)
+            animator.SetBool("IsUp", directionName == "Up");
+            animator.SetBool("IsDown", directionName == "Down");
+            animator.SetBool("IsLeft", directionName == "Left");
+            animator.SetBool("IsRight", directionName == "Right");
+
+            if (showDebugLogs)
+            {
+                Debug.Log($"🎮 Direction: {GetDirectionEmoji(directionName)} {directionName}");
             }
         }
 
-        public void StopAnimation()
+        private string GetDirectionName(Vector2 direction)
         {
-            animator.SetBool(IsWalking, false);
+            // Normaliser
+            direction.Normalize();
+
+            // Déterminer la direction dominante
+            float absX = Mathf.Abs(direction.x);
+            float absY = Mathf.Abs(direction.y);
+
+            if (absY > absX)
+            {
+                // Vertical
+                return direction.y > 0 ? "Up" : "Down";
+            }
+            else
+            {
+                // Horizontal
+                return direction.x > 0 ? "Right" : "Left";
+            }
         }
+
+        private string GetDirectionEmoji(string direction)
+        {
+            return direction switch
+            {
+                "Up" => "⬆️",
+                "Down" => "⬇️",
+                "Left" => "⬅️",
+                "Right" => "➡️",
+                _ => "❓"
+            };
+        }
+
+        public void SetIdle()
+        {
+            if (animator == null) return;
+
+            animator.SetBool("IsMoving", false);
+            animator.SetBool("IsUp", false);
+            animator.SetBool("IsDown", false);
+            animator.SetBool("IsLeft", false);
+            animator.SetBool("IsRight", false);
+
+            if (showDebugLogs)
+            {
+                Debug.Log("🟠 IDLE");
+            }
+        }
+
+        public void StopAnimation() => SetIdle();
     }
 }
