@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 namespace Script
@@ -7,85 +6,144 @@ namespace Script
     {
         private Animator animator;
         private SpriteRenderer spriteRenderer;
-        private Vector3 lastPosition;
         public static PlayerAnimatior instance { get; set; }
 
         [Header("Sprite Settings")]
-        [Tooltip("Si le sprite est sur un enfant, assignez-le ici")]
-        public Transform spriteTransform; // Référence au transform du sprite
+        public Transform spriteTransform;
 
-        private static readonly int IsWalking = Animator.StringToHash("IsWalking");
-        private static readonly int IsVertical = Animator.StringToHash("IsVertical");
+        [Header("Debug")]
+        public bool showDebugLogs = true;
 
         private void Awake()
         {
-           
-            if (spriteTransform == null)
-                spriteTransform = transform;
-
-            animator = spriteTransform.GetComponent<Animator>();
-            spriteRenderer = spriteTransform.GetComponent<SpriteRenderer>();
-            
-            lastPosition = transform.position;
-
-            if (instance == null)
-            {
-                instance = this;
-                DontDestroyOnLoad(gameObject);
-            }
-            else
+            if (instance != null && instance != this)
             {
                 Destroy(gameObject);
                 return;
             }
-        }
+            instance = this;
+            DontDestroyOnLoad(gameObject);
 
-        public void UpdateAnimationFromMovement()
-        {
-            Vector3 direction = (transform.position - lastPosition).normalized;
-
-            if (direction.magnitude > 0.01f)
+            if (spriteTransform == null)
             {
-                animator.SetBool(IsWalking, true);
+                spriteTransform = transform;
+                animator = GetComponent<Animator>();
+                spriteRenderer = GetComponent<SpriteRenderer>();
 
-                bool isVertical = Mathf.Abs(direction.y) > Mathf.Abs(direction.x);
-                animator.SetBool(IsVertical, isVertical);
-
-                if (!isVertical)
-                {
-                   
-                    spriteRenderer.flipX = direction.x < 0;
-                }
-            }
-
-            lastPosition = transform.position;
-        }
-
-        public void UpdateAnimation(Vector3 targetPosition)
-        {
-            Vector3 direction = (targetPosition - transform.position).normalized;
-
-            if (direction.magnitude > 0.01f)
-            {
-                animator.SetBool(IsWalking, true);
-
-                bool isVertical = Mathf.Abs(direction.y) > Mathf.Abs(direction.x);
-                animator.SetBool(IsVertical, isVertical);
-
-                if (!isVertical)
-                {
-                    spriteRenderer.flipX = direction.x < 0;
-                }
+                if (animator == null) animator = GetComponentInChildren<Animator>();
+                if (spriteRenderer == null) spriteRenderer = GetComponentInChildren<SpriteRenderer>();
             }
             else
             {
-                animator.SetBool(IsWalking, false);
+                animator = spriteTransform.GetComponent<Animator>();
+                spriteRenderer = spriteTransform.GetComponent<SpriteRenderer>();
+            }
+            
+
+            SetIdle();
+        }
+
+        public void SetMovementDirection(Vector2 direction)
+        {
+            if (animator == null)
+            {
+                Debug.LogError("❌ Animator manquant !");
+                return;
+            }
+
+            if (spriteRenderer == null)
+            {
+                Debug.LogError("❌ SpriteRenderer manquant !");
+                return;
+            }
+
+            if (direction.sqrMagnitude < 0.01f)
+            {
+                SetIdle();
+                return;
+            }
+
+            direction.Normalize();
+
+            string directionName = GetMainDirection(direction);
+
+            animator.SetBool("IsMoving", true);
+
+            animator.SetBool("IsUp", directionName == "Up");
+            animator.SetBool("IsDown", directionName == "Down");
+            animator.SetBool("IsLeft", directionName == "Left");
+            animator.SetBool("IsRight", directionName == "Right");
+
+            ApplyFlip(directionName, direction);
+            
+        }
+
+        private string GetMainDirection(Vector2 direction)
+        {
+            float absX = Mathf.Abs(direction.x);
+            float absY = Mathf.Abs(direction.y);
+
+            if (absY > absX)
+            {
+                
+                return direction.y > 0 ? "Up" : "Down";
+            }
+            else
+            {
+                return direction.x > 0 ? "Right" : "Left";
             }
         }
 
-        public void StopAnimation()
+        private void ApplyFlip(string directionName, Vector2 direction)
         {
-            animator.SetBool(IsWalking, false);
+            switch (directionName)
+            {
+                case "Up":
+                    spriteRenderer.flipY = false;
+                    spriteRenderer.flipX = true;
+                    break;
+
+                case "Down":
+                    spriteRenderer.flipY = false;
+                    spriteRenderer.flipX = true;
+                    break;
+
+                case "Left":
+                    spriteRenderer.flipY = false;
+                    spriteRenderer.flipX = false;
+                    break;
+
+                case "Right":
+                    spriteRenderer.flipY = false;
+                    spriteRenderer.flipX = false;
+                    break;
+            }
         }
+
+       
+
+        public void SetIdle()
+        {
+            if (animator == null) return;
+
+            animator.SetBool("IsMoving", false);
+            animator.SetBool("IsUp", false);
+            animator.SetBool("IsDown", false);
+            animator.SetBool("IsLeft", false);
+            animator.SetBool("IsRight", false);
+
+            if (spriteRenderer != null)
+            {
+                spriteRenderer.flipX = false;
+                spriteRenderer.flipY = false;
+            }
+
+            if (showDebugLogs)
+            {
+                Debug.Log("🟠 IDLE");
+            }
+        }
+
+        public void StopAnimation() => SetIdle();
     }
 }

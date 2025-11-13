@@ -105,7 +105,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Unit
   unitName: Miral
   unitLevel: 3
-  damage: 10
+  damage: 3
   maxPV: 30
   currentPV: 30
   equippedItem: {fileID: 0}
