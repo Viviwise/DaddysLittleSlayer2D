@@ -1,7 +1,127 @@
 fileFormatVersion: 2
-guid: e1ad67129fb4ae9d3945f7b138ff8cea
+guid: c31a8dfafbad122ac96ff5764280c734
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -2726879002738452491
+    second: Dona_Walk_Right_0
+  - first:
+      213: 7258553579515706261
+    second: Dona_Walk_Right_1
+  - first:
+      213: 1790550506996708402
+    second: Dona_Walk_Right_2
+  - first:
+      213: 5634382866417888337
+    second: Dona_Walk_Right_3
+  - first:
+      213: -3642409906644634965
+    second: Dona_Walk_Right_4
+  - first:
+      213: 2599278458183685309
+    second: Dona_Walk_Right_5
+  - first:
+      213: -2942074944527472438
+    second: Dona_Walk_Right_6
+  - first:
+      213: -1503968701413685659
+    second: Dona_Walk_Right_7
+  - first:
+      213: -4644743628496678151
+    second: Dona_Walk_Right_8
+  - first:
+      213: -8520717814576196610
+    second: Dona_Walk_Right_9
+  - first:
+      213: 2217400562807493615
+    second: Dona_Walk_Right_10
+  - first:
+      213: -110887586578457933
+    second: Dona_Walk_Right_11
+  - first:
+      213: 161078458206678533
+    second: Dona_Walk_Right_12
+  - first:
+      213: -3786455920433986830
+    second: Dona_Walk_Right_13
+  - first:
+      213: 2664549543448450462
+    second: Dona_Walk_Right_14
+  - first:
+      213: -8438487327819301351
+    second: Dona_Walk_Right_15
+  - first:
+      213: 4967136374662014941
+    second: Dona_Walk_Right_16
+  - first:
+      213: 850762717831541512
+    second: Dona_Walk_Right_17
+  - first:
+      213: -5441781819628324236
+    second: Dona_Walk_Right_18
+  - first:
+      213: 5784316272447878916
+    second: Dona_Walk_Right_19
+  - first:
+      213: 7860704177108360333
+    second: Dona_Walk_Right_20
+  - first:
+      213: 4756874689583827824
+    second: Dona_Walk_Right_21
+  - first:
+      213: -2236956253245915411
+    second: Dona_Walk_Right_22
+  - first:
+      213: 9057268454150910380
+    second: Dona_Walk_Right_23
+  - first:
+      213: -2135145182301073148
+    second: Dona_Walk_Right_24
+  - first:
+      213: -8071062053365378385
+    second: Dona_Walk_Right_25
+  - first:
+      213: -2613684713742660387
+    second: Dona_Walk_Right_26
+  - first:
+      213: 8075326906365733944
+    second: Dona_Walk_Right_27
+  - first:
+      213: 2081354404177287294
+    second: Dona_Walk_Right_28
+  - first:
+      213: 7300404663826045618
+    second: Dona_Walk_Right_29
+  - first:
+      213: -812679389632837035
+    second: Dona_Walk_Right_30
+  - first:
+      213: -6263309936839620083
+    second: Dona_Walk_Right_31
+  - first:
+      213: 4652192564618510933
+    second: Dona_Walk_Right_32
+  - first:
+      213: 8099244195727921340
+    second: Dona_Walk_Right_33
+  - first:
+      213: 5334890860345345367
+    second: Dona_Walk_Right_34
+  - first:
+      213: -7004566897737701477
+    second: Dona_Walk_Right_35
+  - first:
+      213: 8103551481905603007
+    second: Dona_Walk_Right_36
+  - first:
+      213: 8592322729062011508
+    second: Dona_Walk_Right_37
+  - first:
+      213: 7758931298362435024
+    second: Dona_Walk_Right_38
+  - first:
+      213: -6143476283480156345
+    second: Dona_Walk_Right_39
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -149,7 +269,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Dona_Walk v2_0
+      name: Dona_Walk_Right_0
       rect:
         serializedVersion: 2
         x: 0
@@ -162,16 +282,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 98790bfa52b54a266bb7965a5af09461
-      internalID: 645545931
+      spriteID: 5f79d40aefd282ad0800000000000000
+      internalID: -2726879002738452491
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dona_Walk v2_1
+      name: Dona_Walk_Right_1
       rect:
         serializedVersion: 2
         x: 256
@@ -184,16 +304,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: a3ede6d31c7d35d7697a90395f6a36dc
-      internalID: 1089109752
+      spriteID: 59b7c2ae5009bb460800000000000000
+      internalID: 7258553579515706261
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dona_Walk v2_2
+      name: Dona_Walk_Right_2
       rect:
         serializedVersion: 2
         x: 512
@@ -206,16 +326,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: d6e27b685ac09b56396265bb28b62db6
-      internalID: -490174367
+      spriteID: 2343fe9033059d810800000000000000
+      internalID: 1790550506996708402
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dona_Walk v2_3
+      name: Dona_Walk_Right_3
       rect:
         serializedVersion: 2
         x: 768
@@ -228,16 +348,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 3d4e92457d61859f191d433feca324b0
-      internalID: 818199667
+      spriteID: 15ca2616d59513e40800000000000000
+      internalID: 5634382866417888337
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dona_Walk v2_4
+      name: Dona_Walk_Right_4
       rect:
         serializedVersion: 2
         x: 0
@@ -250,16 +370,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 90846501a7a01892288ea6c7b4934e66
-      internalID: -2042116730
+      spriteID: ba2351cfc7f837dc0800000000000000
+      internalID: -3642409906644634965
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dona_Walk v2_5
+      name: Dona_Walk_Right_5
       rect:
         serializedVersion: 2
         x: 256
@@ -272,16 +392,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e932054c4b333a5eabff0aec449a9c98
-      internalID: 375927220
+      spriteID: db41d547cfd721420800000000000000
+      internalID: 2599278458183685309
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dona_Walk v2_6
+      name: Dona_Walk_Right_6
       rect:
         serializedVersion: 2
         x: 512
@@ -294,16 +414,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 03720cccf8392003a97e699f5e2f1dd3
-      internalID: 1612246448
+      spriteID: ac8ecdcfc66ab27d0800000000000000
+      internalID: -2942074944527472438
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dona_Walk v2_7
+      name: Dona_Walk_Right_7
       rect:
         serializedVersion: 2
         x: 768
@@ -316,16 +436,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 8cba5e0f0b0cf54d6934fba9e7ccb482
-      internalID: 196527656
+      spriteID: 5668ee63f64d02be0800000000000000
+      internalID: -1503968701413685659
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dona_Walk v2_8
+      name: Dona_Walk_Right_8
       rect:
         serializedVersion: 2
         x: 0
@@ -338,16 +458,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 4599d25f10d9d5fdf82da9fbeb1d4c9c
-      internalID: -303206776
+      spriteID: 9f252be574e8a8fb0800000000000000
+      internalID: -4644743628496678151
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dona_Walk v2_9
+      name: Dona_Walk_Right_9
       rect:
         serializedVersion: 2
         x: 256
@@ -360,16 +480,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: be61ab0586c3c336aa09f5a0e79f9f5e
-      internalID: 923164227
+      spriteID: ef3d7d6da4450c980800000000000000
+      internalID: -8520717814576196610
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dona_Walk v2_10
+      name: Dona_Walk_Right_10
       rect:
         serializedVersion: 2
         x: 512
@@ -382,16 +502,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 466a4756ed90927e19f050116063d1b3
-      internalID: -1459670223
+      spriteID: fe354e6401ac5ce10800000000000000
+      internalID: 2217400562807493615
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dona_Walk v2_11
+      name: Dona_Walk_Right_11
       rect:
         serializedVersion: 2
         x: 768
@@ -404,16 +524,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 780fa9bf3d172545f83841d6d252b6fb
-      internalID: 1423575446
+      spriteID: 3ba9df7d35c067ef0800000000000000
+      internalID: -110887586578457933
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dona_Walk v2_12
+      name: Dona_Walk_Right_12
       rect:
         serializedVersion: 2
         x: 0
@@ -426,16 +546,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: f84e9539ed3c24452aa338d92f6272b7
-      internalID: -977924115
+      spriteID: 50e606a11044c3200800000000000000
+      internalID: 161078458206678533
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dona_Walk v2_13
+      name: Dona_Walk_Right_13
       rect:
         serializedVersion: 2
         x: 256
@@ -448,16 +568,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 588c6072883a81563a7dec1ee5d6c93a
-      internalID: 1662031936
+      spriteID: 2f28bd0e66ec37bc0800000000000000
+      internalID: -3786455920433986830
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dona_Walk v2_14
+      name: Dona_Walk_Right_14
       rect:
         serializedVersion: 2
         x: 512
@@ -470,16 +590,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 84bdfc2ba7a2b621b909b8589abed35c
-      internalID: 1802971988
+      spriteID: e959caf31b16af420800000000000000
+      internalID: 2664549543448450462
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dona_Walk v2_15
+      name: Dona_Walk_Right_15
       rect:
         serializedVersion: 2
         x: 768
@@ -492,16 +612,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: ddd74e9016eb79240a3f34b92c32901b
-      internalID: 1328915386
+      spriteID: 91ef1bffb7874ea80800000000000000
+      internalID: -8438487327819301351
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dona_Walk v2_16
+      name: Dona_Walk_Right_16
       rect:
         serializedVersion: 2
         x: 0
@@ -514,16 +634,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: baaa92b991b62b46c9a48e0e03277081
-      internalID: 548162442
+      spriteID: dd7a6aa3730dee440800000000000000
+      internalID: 4967136374662014941
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dona_Walk v2_17
+      name: Dona_Walk_Right_17
       rect:
         serializedVersion: 2
         x: 256
@@ -536,16 +656,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 96ffdaec60fa0b9368cbcab91fbc918b
-      internalID: -1769531252
+      spriteID: 803be703f248ecb00800000000000000
+      internalID: 850762717831541512
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dona_Walk v2_18
+      name: Dona_Walk_Right_18
       rect:
         serializedVersion: 2
         x: 512
@@ -558,16 +678,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: c2d3ee918896a95a1bfba2b5621ba1d2
-      internalID: -1139070409
+      spriteID: 47affdf4448ea74b0800000000000000
+      internalID: -5441781819628324236
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dona_Walk v2_19
+      name: Dona_Walk_Right_19
       rect:
         serializedVersion: 2
         x: 768
@@ -580,16 +700,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 4fee5754bf915d3378dfe0d3148e565c
-      internalID: -536586939
+      spriteID: 40774cfc005064050800000000000000
+      internalID: 5784316272447878916
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dona_Walk v2_20
+      name: Dona_Walk_Right_20
       rect:
         serializedVersion: 2
         x: 0
@@ -602,16 +722,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 75cbd8f2c926c04bf9552aefaed8f641
-      internalID: 1426863598
+      spriteID: d8c19f02dc4d61d60800000000000000
+      internalID: 7860704177108360333
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dona_Walk v2_21
+      name: Dona_Walk_Right_21
       rect:
         serializedVersion: 2
         x: 256
@@ -624,16 +744,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 434e24652e47d8181a7cf6d6b7717050
-      internalID: 1544425624
+      spriteID: 07bc0b1c350d30240800000000000000
+      internalID: 4756874689583827824
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dona_Walk v2_22
+      name: Dona_Walk_Right_22
       rect:
         serializedVersion: 2
         x: 512
@@ -646,16 +766,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: ba0352449a675eeab9cf6adbb5897208
-      internalID: -825818742
+      spriteID: dee303bb32cb4f0e0800000000000000
+      internalID: -2236956253245915411
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dona_Walk v2_23
+      name: Dona_Walk_Right_23
       rect:
         serializedVersion: 2
         x: 768
@@ -668,16 +788,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: c904aede6b33f386e8e51f2eb87e8ae5
-      internalID: -769487385
+      spriteID: ca1340deba1e1bd70800000000000000
+      internalID: 9057268454150910380
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dona_Walk v2_24
+      name: Dona_Walk_Right_24
       rect:
         serializedVersion: 2
         x: 0
@@ -690,16 +810,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 262a9f1e86f9ac07198b5a811b098210
-      internalID: -531303026
+      spriteID: 401de09e4c07e52e0800000000000000
+      internalID: -2135145182301073148
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dona_Walk v2_25
+      name: Dona_Walk_Right_25
       rect:
         serializedVersion: 2
         x: 256
@@ -712,16 +832,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 448ceed2e432bf900937fac3ce1c7497
-      internalID: 110011926
+      spriteID: fa2950523d3ddff80800000000000000
+      internalID: -8071062053365378385
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dona_Walk v2_26
+      name: Dona_Walk_Right_26
       rect:
         serializedVersion: 2
         x: 512
@@ -734,16 +854,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 86a80b2232c3182f090e7f5b3af18f2f
-      internalID: 596157264
+      spriteID: ddc008ac9935abbd0800000000000000
+      internalID: -2613684713742660387
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dona_Walk v2_27
+      name: Dona_Walk_Right_27
       rect:
         serializedVersion: 2
         x: 768
@@ -756,16 +876,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e582db45ec6662faa96e9d5a500fee79
-      internalID: 1839549519
+      spriteID: 83c65135903511070800000000000000
+      internalID: 8075326906365733944
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dona_Walk v2_28
+      name: Dona_Walk_Right_28
       rect:
         serializedVersion: 2
         x: 0
@@ -778,16 +898,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e75ccaa23f6c026bb9f03acd252ad2c3
-      internalID: 2076814928
+      spriteID: e789ea89dc472ec10800000000000000
+      internalID: 2081354404177287294
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dona_Walk v2_29
+      name: Dona_Walk_Right_29
       rect:
         serializedVersion: 2
         x: 256
@@ -800,16 +920,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: c9716e07d205140c9a44e54020940355
-      internalID: -1147043434
+      spriteID: 2bad4ffcc5f305560800000000000000
+      internalID: 7300404663826045618
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dona_Walk v2_30
+      name: Dona_Walk_Right_30
       rect:
         serializedVersion: 2
         x: 512
@@ -822,16 +942,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: fceea251f74102fdeba7fa9201e500ef
-      internalID: -140546470
+      spriteID: 55a47a0a668c8b4f0800000000000000
+      internalID: -812679389632837035
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dona_Walk v2_31
+      name: Dona_Walk_Right_31
       rect:
         serializedVersion: 2
         x: 768
@@ -844,16 +964,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 98b8e1cb993f24365890c6136e1206dc
-      internalID: 249036355
+      spriteID: d0a00800cc04419a0800000000000000
+      internalID: -6263309936839620083
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dona_Walk v2_32
+      name: Dona_Walk_Right_32
       rect:
         serializedVersion: 2
         x: 0
@@ -866,16 +986,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 009ba658f0c40c1f39755b0a2fd361c6
-      internalID: -1333707678
+      spriteID: 552ccc83d78ef8040800000000000000
+      internalID: 4652192564618510933
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dona_Walk v2_33
+      name: Dona_Walk_Right_33
       rect:
         serializedVersion: 2
         x: 256
@@ -888,16 +1008,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 9cb246cbe78a73f448360354dbf34189
-      internalID: -990440206
+      spriteID: cb0d1833fab466070800000000000000
+      internalID: 8099244195727921340
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dona_Walk v2_34
+      name: Dona_Walk_Right_34
       rect:
         serializedVersion: 2
         x: 512
@@ -910,16 +1030,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 51573b505895537f4ae29d1353619080
-      internalID: 78961429
+      spriteID: 755cc56d8f6590a40800000000000000
+      internalID: 5334890860345345367
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dona_Walk v2_35
+      name: Dona_Walk_Right_35
       rect:
         serializedVersion: 2
         x: 768
@@ -932,16 +1052,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: cf1dc8699db482bc696fa733236f2837
-      internalID: 626943721
+      spriteID: b9762eea487cace90800000000000000
+      internalID: -7004566897737701477
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dona_Walk v2_36
+      name: Dona_Walk_Right_36
       rect:
         serializedVersion: 2
         x: 0
@@ -954,16 +1074,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: f8ac1738bbf2e8a0ab4a6aeeafce1fa8
-      internalID: 390782400
+      spriteID: fb1e21a6329957070800000000000000
+      internalID: 8103551481905603007
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dona_Walk v2_37
+      name: Dona_Walk_Right_37
       rect:
         serializedVersion: 2
         x: 256
@@ -976,16 +1096,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 99a69d78e2e715cfaa09f072d8e3c922
-      internalID: -333591668
+      spriteID: 472914d7fff0e3770800000000000000
+      internalID: 8592322729062011508
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dona_Walk v2_38
+      name: Dona_Walk_Right_38
       rect:
         serializedVersion: 2
         x: 512
@@ -998,16 +1118,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 5e51d5e6e06ba89159ffb5245c9c0f18
-      internalID: 1445537339
+      spriteID: 0d5ad8348e24dab60800000000000000
+      internalID: 7758931298362435024
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Dona_Walk v2_39
+      name: Dona_Walk_Right_39
       rect:
         serializedVersion: 2
         x: 768
@@ -1020,10 +1140,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 32614870b1ae2fb47a51ec6da905771d
-      internalID: 487812757
+      spriteID: 747d025aedcfdbaa0800000000000000
+      internalID: -6143476283480156345
       vertices: []
       indices: 
       edges: []
@@ -1032,7 +1152,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 6fe388f42581f83d7bf52ef2635ecc6b
+    spriteID: f087724ae4857f47381c0ffa19107f5e
     internalID: 0
     vertices: []
     indices: 
@@ -1042,48 +1162,48 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":10.0},"gridSpriteSize":{"x":256.0,"y":256.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":1,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":10.0},"gridSpriteSize":{"x":256.0,"y":256.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Dona_Walk v2_0: 645545931
-      Dona_Walk v2_1: 1089109752
-      Dona_Walk v2_10: -1459670223
-      Dona_Walk v2_11: 1423575446
-      Dona_Walk v2_12: -977924115
-      Dona_Walk v2_13: 1662031936
-      Dona_Walk v2_14: 1802971988
-      Dona_Walk v2_15: 1328915386
-      Dona_Walk v2_16: 548162442
-      Dona_Walk v2_17: -1769531252
-      Dona_Walk v2_18: -1139070409
-      Dona_Walk v2_19: -536586939
-      Dona_Walk v2_2: -490174367
-      Dona_Walk v2_20: 1426863598
-      Dona_Walk v2_21: 1544425624
-      Dona_Walk v2_22: -825818742
-      Dona_Walk v2_23: -769487385
-      Dona_Walk v2_24: -531303026
-      Dona_Walk v2_25: 110011926
-      Dona_Walk v2_26: 596157264
-      Dona_Walk v2_27: 1839549519
-      Dona_Walk v2_28: 2076814928
-      Dona_Walk v2_29: -1147043434
-      Dona_Walk v2_3: 818199667
-      Dona_Walk v2_30: -140546470
-      Dona_Walk v2_31: 249036355
-      Dona_Walk v2_32: -1333707678
-      Dona_Walk v2_33: -990440206
-      Dona_Walk v2_34: 78961429
-      Dona_Walk v2_35: 626943721
-      Dona_Walk v2_36: 390782400
-      Dona_Walk v2_37: -333591668
-      Dona_Walk v2_38: 1445537339
-      Dona_Walk v2_39: 487812757
-      Dona_Walk v2_4: -2042116730
-      Dona_Walk v2_5: 375927220
-      Dona_Walk v2_6: 1612246448
-      Dona_Walk v2_7: 196527656
-      Dona_Walk v2_8: -303206776
-      Dona_Walk v2_9: 923164227
+      Dona_Walk_Right_0: -2726879002738452491
+      Dona_Walk_Right_1: 7258553579515706261
+      Dona_Walk_Right_10: 2217400562807493615
+      Dona_Walk_Right_11: -110887586578457933
+      Dona_Walk_Right_12: 161078458206678533
+      Dona_Walk_Right_13: -3786455920433986830
+      Dona_Walk_Right_14: 2664549543448450462
+      Dona_Walk_Right_15: -8438487327819301351
+      Dona_Walk_Right_16: 4967136374662014941
+      Dona_Walk_Right_17: 850762717831541512
+      Dona_Walk_Right_18: -5441781819628324236
+      Dona_Walk_Right_19: 5784316272447878916
+      Dona_Walk_Right_2: 1790550506996708402
+      Dona_Walk_Right_20: 7860704177108360333
+      Dona_Walk_Right_21: 4756874689583827824
+      Dona_Walk_Right_22: -2236956253245915411
+      Dona_Walk_Right_23: 9057268454150910380
+      Dona_Walk_Right_24: -2135145182301073148
+      Dona_Walk_Right_25: -8071062053365378385
+      Dona_Walk_Right_26: -2613684713742660387
+      Dona_Walk_Right_27: 8075326906365733944
+      Dona_Walk_Right_28: 2081354404177287294
+      Dona_Walk_Right_29: 7300404663826045618
+      Dona_Walk_Right_3: 5634382866417888337
+      Dona_Walk_Right_30: -812679389632837035
+      Dona_Walk_Right_31: -6263309936839620083
+      Dona_Walk_Right_32: 4652192564618510933
+      Dona_Walk_Right_33: 8099244195727921340
+      Dona_Walk_Right_34: 5334890860345345367
+      Dona_Walk_Right_35: -7004566897737701477
+      Dona_Walk_Right_36: 8103551481905603007
+      Dona_Walk_Right_37: 8592322729062011508
+      Dona_Walk_Right_38: 7758931298362435024
+      Dona_Walk_Right_39: -6143476283480156345
+      Dona_Walk_Right_4: -3642409906644634965
+      Dona_Walk_Right_5: 2599278458183685309
+      Dona_Walk_Right_6: -2942074944527472438
+      Dona_Walk_Right_7: -1503968701413685659
+      Dona_Walk_Right_8: -4644743628496678151
+      Dona_Walk_Right_9: -8520717814576196610
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

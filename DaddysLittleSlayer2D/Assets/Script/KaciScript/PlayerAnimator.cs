@@ -2,17 +2,18 @@ using UnityEngine;
 
 namespace Script
 {
-    public class PlayerAnimatior : MonoBehaviour
+    public class PlayerAnimator : MonoBehaviour
     {
-        private Animator animator;
-        private SpriteRenderer spriteRenderer;
-        public static PlayerAnimatior instance { get; set; }
+        private Animator _animator;
+        private SpriteRenderer _spriteRenderer;
+        public static PlayerAnimator instance { get; private set; }
 
-        [Header("Sprite Settings")]
         public Transform spriteTransform;
-
-        [Header("Debug")]
+        
         public bool showDebugLogs = true;
+
+        private static readonly int DirectionXParam = Animator.StringToHash("DirectionX");
+        private static readonly int DirectionYParam = Animator.StringToHash("DirectionY");
 
         private void Awake()
         {
@@ -22,70 +23,70 @@ namespace Script
                 return;
             }
             instance = this;
-            DontDestroyOnLoad(gameObject);
 
             if (spriteTransform == null)
-            {
                 spriteTransform = transform;
-                animator = GetComponent<Animator>();
-                spriteRenderer = GetComponent<SpriteRenderer>();
 
-                if (animator == null) animator = GetComponentInChildren<Animator>();
-                if (spriteRenderer == null) spriteRenderer = GetComponentInChildren<SpriteRenderer>();
-            }
-            else
-            {
-                animator = spriteTransform.GetComponent<Animator>();
-                spriteRenderer = spriteTransform.GetComponent<SpriteRenderer>();
-            }
-            
+            _animator = spriteTransform.GetComponent<Animator>();
+            _spriteRenderer = spriteTransform.GetComponent<SpriteRenderer>();
 
-            SetIdle();
+            if (_animator == null)
+                Debug.LogError(" Animator manquant sur " + spriteTransform.name);
+
+            if (_spriteRenderer == null)
+                Debug.LogError("SpriteRenderer manquant sur " + spriteTransform.name);
         }
 
-        public void SetMovementDirection(Vector2 direction)
+        public void SetMovementDirection(Vector2 gridDirection)
         {
-            if (animator == null)
+            if (_animator == null) return;
+
+            if (gridDirection.sqrMagnitude < 0.01f)
             {
-                Debug.LogError("❌ Animator manquant !");
+                if (showDebugLogs)
+                    Debug.Log(" Pas de mouvement détecté");
                 return;
             }
 
-            if (spriteRenderer == null)
+            gridDirection.Normalize();
+
+            string mainDirection = GetMainDirection(gridDirection);
+
+            switch (mainDirection)
             {
-                Debug.LogError("❌ SpriteRenderer manquant !");
-                return;
+                case "Up":
+                    _animator.SetFloat(DirectionXParam, 0);
+                    _animator.SetFloat(DirectionYParam, 1);
+                    break;
+
+                case "Down":
+                    _animator.SetFloat(DirectionXParam, 0);
+                    _animator.SetFloat(DirectionYParam, -1);
+                    break;
+
+                case "Left":
+                    _animator.SetFloat(DirectionXParam, -1);
+                    _animator.SetFloat(DirectionYParam, 0);
+                    break;
+
+                case "Right":
+                    _animator.SetFloat(DirectionXParam, 1);
+                    _animator.SetFloat(DirectionYParam, 0);
+                    break;
             }
 
-            if (direction.sqrMagnitude < 0.01f)
-            {
-                SetIdle();
-                return;
-            }
-
-            direction.Normalize();
-
-            string directionName = GetMainDirection(direction);
-
-            animator.SetBool("IsMoving", true);
-
-            animator.SetBool("IsUp", directionName == "Up");
-            animator.SetBool("IsDown", directionName == "Down");
-            animator.SetBool("IsLeft", directionName == "Left");
-            animator.SetBool("IsRight", directionName == "Right");
-
-            ApplyFlip(directionName, direction);
-            
+           
         }
+        
 
         private string GetMainDirection(Vector2 direction)
         {
             float absX = Mathf.Abs(direction.x);
             float absY = Mathf.Abs(direction.y);
 
+            
             if (absY > absX)
             {
-                
                 return direction.y > 0 ? "Up" : "Down";
             }
             else
@@ -93,57 +94,12 @@ namespace Script
                 return direction.x > 0 ? "Right" : "Left";
             }
         }
-
-        private void ApplyFlip(string directionName, Vector2 direction)
+        
+        public void StopAnimation()
         {
-            switch (directionName)
-            {
-                case "Up":
-                    spriteRenderer.flipY = false;
-                    spriteRenderer.flipX = true;
-                    break;
-
-                case "Down":
-                    spriteRenderer.flipY = false;
-                    spriteRenderer.flipX = true;
-                    break;
-
-                case "Left":
-                    spriteRenderer.flipY = false;
-                    spriteRenderer.flipX = false;
-                    break;
-
-                case "Right":
-                    spriteRenderer.flipY = false;
-                    spriteRenderer.flipX = false;
-                    break;
-            }
+            if (showDebugLogs);
         }
-
-       
-
-        public void SetIdle()
-        {
-            if (animator == null) return;
-
-            animator.SetBool("IsMoving", false);
-            animator.SetBool("IsUp", false);
-            animator.SetBool("IsDown", false);
-            animator.SetBool("IsLeft", false);
-            animator.SetBool("IsRight", false);
-
-            if (spriteRenderer != null)
-            {
-                spriteRenderer.flipX = false;
-                spriteRenderer.flipY = false;
-            }
-
-            if (showDebugLogs)
-            {
-                Debug.Log("🟠 IDLE");
-            }
-        }
-
-        public void StopAnimation() => SetIdle();
+        
     }
 }
+
