@@ -60,16 +60,7 @@ public class inventoryItemUI : MonoBehaviour, IPointerClickHandler
 
         if (current != null)
         {
-            switch (current.itemType)
-            {
-                case ItemType.Weapon:
-                    current.Use(current.itemType);
-                    break;
-
-                case ItemType.Consumable:
-                    current.Use(current.itemType);
-                    break;
-            }
+            current.Use();
         }
 
 
@@ -93,11 +84,10 @@ public class inventoryItemUI : MonoBehaviour, IPointerClickHandler
         if (thisItemSelected)
         {
 
-            Data.Use(Data.itemType); //Consumable use
+            Data.Use();
             if (quantity > 0)
             {
-                Data.Use(Data.itemType);
-
+                Data.Use();
                 quantityText.text = this.quantity.ToString();
                 if (quantity <= 0)
                 {

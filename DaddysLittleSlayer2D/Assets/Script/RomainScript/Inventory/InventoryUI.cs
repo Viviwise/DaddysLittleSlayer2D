@@ -49,17 +49,4 @@ public class InventoryUI : MonoBehaviour
         EmptySlot();
     }
 
-    public void UseWeapon(InventoryItemData inventoryItemData)
-    {
-        Inventory.Instance.WeaponSlot.Data = inventoryItemData;
-        InventoryItemData weaponData = Inventory.Instance.WeaponSlot.Data;
-    }
-
-    public void UseConsumable(InventoryItemData inventoryItemData)
-    {
-        Inventory.Instance.ConsumableSlot.Data = inventoryItemData;
-        InventoryItemData consumableSlot = Inventory.Instance.ConsumableSlot.Data;
-    }
-
-
 }
