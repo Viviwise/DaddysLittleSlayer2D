@@ -19,5 +19,8 @@ public class InventoryItemData : ScriptableObject
     public void Use()
     {
         
+
+
+
     }
 }
