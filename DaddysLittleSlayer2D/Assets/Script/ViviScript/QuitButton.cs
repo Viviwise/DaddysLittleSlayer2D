@@ -7,7 +7,5 @@ public class QuitButton : MonoBehaviour
     {
         Application.Quit();
         UnityEditor.EditorApplication.isPlaying = false;
-
-        Debug.Log("Quit Game");
     }
 }
