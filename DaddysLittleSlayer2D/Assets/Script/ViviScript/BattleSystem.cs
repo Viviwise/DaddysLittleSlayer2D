@@ -33,7 +33,6 @@ public class BattleSystem : MonoBehaviour
     public Button attack1Button;
     public Button attack2Button;
     
-    // bool pour l'animator
     private bool _monsterIsAttacking;
     private bool _monsterIsHurted;
     
@@ -178,7 +177,7 @@ public class BattleSystem : MonoBehaviour
         
 
         ItemData healItem = null;
-        int healIndex = -1; // pour retirer l'objet après utiliser
+        int healIndex = -1; 
         for (int i = 0; i < playerLoadout.selectedItems.Length; i++)
         {
             var item = playerLoadout.selectedItems[i];

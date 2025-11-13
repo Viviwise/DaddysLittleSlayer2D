@@ -51,7 +51,6 @@ namespace Script
                     {
                         Debug.Log("Ennemi détecté ! Démarrage du combat.");
                 
-                        // LANCER LE COMBAT
                         GameManager.Instance.StartBattle(enemy);
                 
                         tilemapManager.overlayTilemap.ClearAllTiles();
@@ -76,7 +75,7 @@ namespace Script
                 Enemy enemy = collider.GetComponent<Enemy>();
                 if (enemy != null)
                 {
-                    return enemy; // RETOURNER L'ENNEMI au lieu de bool
+                    return enemy; 
                 }
             }
 

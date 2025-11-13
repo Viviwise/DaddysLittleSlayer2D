@@ -27,21 +27,18 @@ namespace Script
             if (spriteTransform == null)
             {
                 spriteTransform = transform;
-                animator = GetComponentInChildren<Animator>();
-                spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+                animator = GetComponent<Animator>();
+                spriteRenderer = GetComponent<SpriteRenderer>();
+
+                if (animator == null) animator = GetComponentInChildren<Animator>();
+                if (spriteRenderer == null) spriteRenderer = GetComponentInChildren<SpriteRenderer>();
             }
             else
             {
                 animator = spriteTransform.GetComponent<Animator>();
                 spriteRenderer = spriteTransform.GetComponent<SpriteRenderer>();
             }
-
-            if (showDebugLogs)
-            {
-                Debug.Log($"✅ PlayerAnimator sur {spriteTransform.name}");
-                Debug.Log($"   Animator: {(animator != null ? "✅" : "❌")}");
-                Debug.Log($"   SpriteRenderer: {(spriteRenderer != null ? "✅" : "❌")}");
-            }
+            
 
             SetIdle();
         }
@@ -54,62 +51,76 @@ namespace Script
                 return;
             }
 
+            if (spriteRenderer == null)
+            {
+                Debug.LogError("❌ SpriteRenderer manquant !");
+                return;
+            }
+
             if (direction.sqrMagnitude < 0.01f)
             {
                 SetIdle();
                 return;
             }
 
-            // Déterminer la direction principale
-            string directionName = GetDirectionName(direction);
+            direction.Normalize();
 
-            // Activer le mouvement
+            string directionName = GetMainDirection(direction);
+
             animator.SetBool("IsMoving", true);
-            
-            // Définir la direction (4 bools)
+
             animator.SetBool("IsUp", directionName == "Up");
             animator.SetBool("IsDown", directionName == "Down");
             animator.SetBool("IsLeft", directionName == "Left");
             animator.SetBool("IsRight", directionName == "Right");
 
-            if (showDebugLogs)
-            {
-                Debug.Log($"🎮 Direction: {GetDirectionEmoji(directionName)} {directionName}");
-            }
+            ApplyFlip(directionName, direction);
+            
         }
 
-        private string GetDirectionName(Vector2 direction)
+        private string GetMainDirection(Vector2 direction)
         {
-            // Normaliser
-            direction.Normalize();
-
-            // Déterminer la direction dominante
             float absX = Mathf.Abs(direction.x);
             float absY = Mathf.Abs(direction.y);
 
             if (absY > absX)
             {
-                // Vertical
+                
                 return direction.y > 0 ? "Up" : "Down";
             }
             else
             {
-                // Horizontal
                 return direction.x > 0 ? "Right" : "Left";
             }
         }
 
-        private string GetDirectionEmoji(string direction)
+        private void ApplyFlip(string directionName, Vector2 direction)
         {
-            return direction switch
+            switch (directionName)
             {
-                "Up" => "⬆️",
-                "Down" => "⬇️",
-                "Left" => "⬅️",
-                "Right" => "➡️",
-                _ => "❓"
-            };
+                case "Up":
+                    spriteRenderer.flipY = false;
+                    spriteRenderer.flipX = true;
+                    break;
+
+                case "Down":
+                    spriteRenderer.flipY = false;
+                    spriteRenderer.flipX = true;
+                    break;
+
+                case "Left":
+                    spriteRenderer.flipY = false;
+                    spriteRenderer.flipX = false;
+                    break;
+
+                case "Right":
+                    spriteRenderer.flipY = false;
+                    spriteRenderer.flipX = false;
+                    break;
+            }
         }
+
+       
 
         public void SetIdle()
         {
@@ -120,6 +131,12 @@ namespace Script
             animator.SetBool("IsDown", false);
             animator.SetBool("IsLeft", false);
             animator.SetBool("IsRight", false);
+
+            if (spriteRenderer != null)
+            {
+                spriteRenderer.flipX = false;
+                spriteRenderer.flipY = false;
+            }
 
             if (showDebugLogs)
             {
