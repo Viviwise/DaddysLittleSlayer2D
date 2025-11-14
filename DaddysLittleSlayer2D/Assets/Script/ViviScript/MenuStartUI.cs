@@ -18,7 +18,7 @@ public class MenuStartUI : MonoBehaviour
 
         yield return new WaitForSeconds(0.5f);
 
-        SceneManager.LoadScene("ViviScene");
+        SceneManager.LoadScene("TestScene");
     }
 
     private IEnumerator FadeToBlack(float duration)

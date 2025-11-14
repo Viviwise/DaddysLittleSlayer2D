@@ -3,6 +3,8 @@ using Script;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
+
 
 public class GameManager : MonoBehaviour
 {
@@ -289,6 +291,12 @@ public class GameManager : MonoBehaviour
             PlayerTurn();
         }
     }
+    IEnumerator DeathSequence()
+    {
+        yield return StartCoroutine(playerHUD.FadeToBlack(2f));
+
+        SceneManager.LoadScene("DeathScene");
+    }
 
     IEnumerator EndBattle(bool won)
     {
@@ -301,6 +309,8 @@ public class GameManager : MonoBehaviour
         else
         {
             dialogueText.text = "Défaite... Tu as été vaincu.";
+            StartCoroutine(DeathSequence());
+
         }
 
         yield return new WaitForSeconds(3f);
