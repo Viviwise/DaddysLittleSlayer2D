@@ -1,9 +1,9 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-public class InventoryUI : MonoBehaviour
-{
-    [SerializeField] private Inventory inventory;
+public class InventoryUI : MonoBehaviour 
+{ 
+    [SerializeField] private Inventory inventory; 
 
     [SerializeField] private GameObject uiPrefab;
     [SerializeField] private InventoryItemData Data;
@@ -13,37 +13,37 @@ public class InventoryUI : MonoBehaviour
     public TMP_Text itemDescriptionNameText;
     public TMP_Text itemDescriptionText;
     [SerializeField] private TMP_Text quantityText;
-
-    public void Sync()
-    {
-        foreach (Transform child in transform)
+    
+    public void Sync() 
+    { 
+        foreach (Transform child in transform) 
             Destroy(child.gameObject);
-
-        foreach ((InventoryItemData itemPair, int quantity) in inventory.items)
-        {
-            GameObject uiItem = Instantiate(uiPrefab, transform);
+        
+        foreach ((InventoryItemData itemPair, int quantity) in inventory.items) 
+        { 
+            GameObject uiItem = Instantiate(uiPrefab, transform); 
             InventoryItemUI uiItemComponent = uiItem.GetComponent<InventoryItemUI>();
             uiItemComponent.SetReferences(itemDescriptionImage, itemDescriptionText, itemDescriptionNameText);
-            uiItemComponent.SetItem(itemPair, quantity);
+            uiItemComponent.SetItem(itemPair, quantity); 
         }
 
         EmptySlot();
     }
     public void EmptySlot()
     {
-        itemDescriptionImage.sprite = null;
+        itemDescriptionImage.sprite = null ;
         itemDescriptionNameText.text = "";
         itemDescriptionText.text = "";
         itemDescriptionImage.sprite = null;
         Debug.Log("Empty Slot");
     }
 
-    public void DeselectAllSlots()
-    {
-        foreach (Transform child in transform)
-        {
-            InventoryItemUI uiItemComponent = child.GetComponent<InventoryItemUI>();
-            uiItemComponent.selectShader.SetActive(false);
+    public void DeselectAllSlots() 
+    { 
+        foreach (Transform child in transform) 
+        { 
+            InventoryItemUI uiItemComponent = child.GetComponent<InventoryItemUI>(); 
+            uiItemComponent.selectShader.SetActive(false); 
             uiItemComponent.thisItemSelected = false;
         }
         EmptySlot();

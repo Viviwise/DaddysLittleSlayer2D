@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[DefaultExecutionOrder(-1000)]
+[DefaultExecutionOrder(-100)]
 public class Inventory : MonoBehaviour
 {
 

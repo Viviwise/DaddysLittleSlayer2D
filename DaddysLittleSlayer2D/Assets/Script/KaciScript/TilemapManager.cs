@@ -5,8 +5,7 @@ using Script;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
-
-
+[DefaultExecutionOrder(-500)]
 public class TilemapManager: MonoBehaviour
 {
     public Tilemap walkableTilemap;
@@ -29,7 +28,6 @@ public class TilemapManager: MonoBehaviour
     private bool[] _walkableCells;
     public  int width;
     private int[] _possibleCells;
-
     public static TilemapManager instance { get; set; }
     
 
@@ -111,9 +109,8 @@ public class TilemapManager: MonoBehaviour
     Tile[] GetHighlightTiles()
     {
         if (_highlightTiles != null) return _highlightTiles;
-
-        Color[] colors =
-        {
+        
+        Color[] colors = {
             Color.blue,
         };
 
@@ -124,7 +121,7 @@ public class TilemapManager: MonoBehaviour
             tile.color = color;
 
             return tile;
-        }); 
+        });
         
         return _highlightTiles;
     }

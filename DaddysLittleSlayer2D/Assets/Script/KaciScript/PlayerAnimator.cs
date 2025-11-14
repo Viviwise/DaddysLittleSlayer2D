@@ -2,6 +2,7 @@ using UnityEngine;
 
 namespace Script
 {
+    [DefaultExecutionOrder(-150)]
     public class PlayerAnimator : MonoBehaviour
     {
         private Animator _animator;
@@ -17,18 +18,20 @@ namespace Script
 
         private void Awake()
         {
+            /*
             if (instance != null && instance != this)
             {
+                Debug.Log(instance);
                 Destroy(gameObject);
                 return;
             }
+            */
             instance = this;
-
             if (spriteTransform == null)
                 spriteTransform = transform;
 
-            _animator = spriteTransform.GetComponent<Animator>();
-            _spriteRenderer = spriteTransform.GetComponent<SpriteRenderer>();
+            _animator = GetComponent<Animator>();
+            _spriteRenderer = GetComponent<SpriteRenderer>();
 
             if (_animator == null)
                 Debug.LogError(" Animator manquant sur " + spriteTransform.name);
