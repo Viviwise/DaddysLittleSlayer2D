@@ -79,7 +79,7 @@ public class InventoryItemUI : MonoBehaviour, IPointerClickHandler
             {
                 itemDescriptionImage.sprite = emptySprite;
             }
-        }
+        } 
     }
 
     public void OnRightClick()
@@ -101,8 +101,8 @@ public class InventoryItemUI : MonoBehaviour, IPointerClickHandler
 
             }
 
-
-
+          
+           
         }
     }
 
