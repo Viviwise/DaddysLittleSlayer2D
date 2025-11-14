@@ -42,7 +42,6 @@ public class TilemapManager: MonoBehaviour
         }
         else
         {
-            Destroy(gameObject);
             return;
         }
         Init();

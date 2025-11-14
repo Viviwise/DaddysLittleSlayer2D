@@ -29,7 +29,7 @@ public class GameManager : MonoBehaviour
     public GameObject battleUIPanel;
 
     
-    [Header("Loadout")]
+    [Header("Loadout")] 
     public PlayerLoadout playerLoadout;
 
     private bool _inBattle;

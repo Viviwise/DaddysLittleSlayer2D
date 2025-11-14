@@ -13,7 +13,7 @@ public class InventoryUI : MonoBehaviour
     public TMP_Text itemDescriptionNameText;
     public TMP_Text itemDescriptionText;
     [SerializeField] private TMP_Text quantityText;
-
+    
     public void Sync() 
     { 
         foreach (Transform child in transform) 
@@ -48,5 +48,4 @@ public class InventoryUI : MonoBehaviour
         }
         EmptySlot();
     }
-
 }
