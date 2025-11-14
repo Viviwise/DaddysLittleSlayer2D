@@ -13,15 +13,16 @@ MonoBehaviour:
   m_Name: BoneSaw
   m_EditorClassIdentifier: Assembly-CSharp::InventoryItemData
   itemName: "Scie \xE0 os"
-  itemDescription: 
+  itemDescription: "Une Scie \xE0 os ! Qui serait assez fou pour l'utiliser autrement
+    que comme une arme ? "
   itemType: 0
   attack1:
     attackName: Amputation
-    damage: 3
+    damage: 9
     damageMyself: 0
   attack2:
     attackName: "M\xE9moire des os"
-    damage: 5
-    damageMyself: 2
+    damage: 15
+    damageMyself: 6
   healAmount: 0
   itemSprite: {fileID: 6437517895656021047, guid: 041a7e60d66de3c478ff5ba79e6784fe, type: 3}

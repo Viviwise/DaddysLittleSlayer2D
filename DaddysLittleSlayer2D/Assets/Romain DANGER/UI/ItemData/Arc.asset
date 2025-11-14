@@ -13,15 +13,16 @@ MonoBehaviour:
   m_Name: Arc
   m_EditorClassIdentifier: Assembly-CSharp::InventoryItemData
   itemName: "Fl\xE8che d'Art\xE9mis"
-  itemDescription: 
+  itemDescription: "La Fl\xE8che d'Art\xE9mis ! Qu'est-ce qu'elle fait l\xE0 ?                 
+    Dans tout les cas, cela fera une bonne arme !"
   itemType: 0
   attack1:
     attackName: Pik Pik
-    damage: 2
+    damage: 6
     damageMyself: 0
   attack2:
     attackName: "Fl\xE8che explosive"
-    damage: 5
-    damageMyself: 2
+    damage: 15
+    damageMyself: 6
   healAmount: 0
   itemSprite: {fileID: 6807138530303061893, guid: f8c47be64e70c9444b2a36905fc4d53b, type: 3}

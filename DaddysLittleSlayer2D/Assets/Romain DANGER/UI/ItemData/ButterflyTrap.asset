@@ -13,15 +13,16 @@ MonoBehaviour:
   m_Name: ButterflyTrap
   m_EditorClassIdentifier: Assembly-CSharp::InventoryItemData
   itemName: "Filet \xE0 papillon"
-  itemDescription: 
+  itemDescription: "Un filet \xE0 papillon tout \xE0 fait normal, Une arme m\xE9diocre
+    mais marrante"
   itemType: 0
   attack1:
     attackName: Bonk
-    damage: 2
+    damage: 3
     damageMyself: 0
   attack2:
     attackName: Bim
-    damage: 2
+    damage: 3
     damageMyself: 0
   healAmount: 0
   itemSprite: {fileID: -6831926671582228876, guid: bf351b2cb9ac2b7458f1d10c1c8ee07e, type: 3}

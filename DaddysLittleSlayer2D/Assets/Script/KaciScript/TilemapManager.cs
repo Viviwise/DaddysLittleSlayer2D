@@ -4,7 +4,7 @@ using DG.Tweening;
 using Script;
 using UnityEngine;
 using UnityEngine.Tilemaps;
-using ColorUtility = Unity.VisualScripting.ColorUtility;
+
 
 
 public class TilemapManager: MonoBehaviour
@@ -29,6 +29,7 @@ public class TilemapManager: MonoBehaviour
     private bool[] _walkableCells;
     public  int width;
     private int[] _possibleCells;
+
     public static TilemapManager instance { get; set; }
     
 
@@ -110,24 +111,20 @@ public class TilemapManager: MonoBehaviour
     Tile[] GetHighlightTiles()
     {
         if (_highlightTiles != null) return _highlightTiles;
-        
-        Color[] colors = {
-            Color.red,
-            Color.orange,
-            Color.yellow,
-            Color.green,
+
+        Color[] colors =
+        {
             Color.blue,
-            Color.blueViolet,
         };
 
         _highlightTiles = Array.ConvertAll(colors, color =>
         {
             Tile tile = ScriptableObject.CreateInstance<Tile>();
             tile.sprite = highlightTile.sprite;
-            tile.color = ColorUtility.WithAlpha(color, 0.2f);
-        
+            tile.color = color;
+
             return tile;
-        });
+        }); 
         
         return _highlightTiles;
     }

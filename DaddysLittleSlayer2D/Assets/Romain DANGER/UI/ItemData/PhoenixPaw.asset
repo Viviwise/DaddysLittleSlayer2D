@@ -13,15 +13,16 @@ MonoBehaviour:
   m_Name: PhoenixPaw
   m_EditorClassIdentifier: Assembly-CSharp::InventoryItemData
   itemName: Patte de Phoenix
-  itemDescription: 
+  itemDescription: "La patte du Phoenix ! O\xF9 est le reste du corps ? Peut importe,
+    Je pourrais l'utiliser comme arme !"
   itemType: 0
   attack1:
     attackName: Gratte gratte
-    damage: 2
+    damage: 6
     damageMyself: 0
   attack2:
     attackName: Napalm
-    damage: 7
-    damageMyself: 2
+    damage: 21
+    damageMyself: 11
   healAmount: 0
   itemSprite: {fileID: 439945048879126868, guid: 6596239cf310ae34ca1357bb97ccf64f, type: 3}

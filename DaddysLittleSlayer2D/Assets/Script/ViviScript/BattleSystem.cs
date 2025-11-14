@@ -36,7 +36,7 @@ public class BattleSystem : MonoBehaviour
     public Button attack1Button;
     public Button attack2Button;
 
-    
+
 
     // variable pour se souvenir de l'item sélectionné (index dans selectedItems)
     private int selectedItemIndex = -1;
@@ -179,7 +179,7 @@ public class BattleSystem : MonoBehaviour
 
         selectedItemIndex = index;
         playerUnit.equippedItem = item;
-        
+
         ShowAttacksForItem(item);
     }
 
@@ -369,7 +369,7 @@ public class BattleSystem : MonoBehaviour
         SceneManager.LoadScene("DeathScene");
     }
 
-    
+
 
     void EndBattle()
     {

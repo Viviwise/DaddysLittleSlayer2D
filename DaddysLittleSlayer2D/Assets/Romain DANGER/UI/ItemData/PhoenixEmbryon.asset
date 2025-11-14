@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: PhoenixEmbryon
   m_EditorClassIdentifier: Assembly-CSharp::InventoryItemData
   itemName: Embrion de Phoenix
-  itemDescription: 
+  itemDescription: "Tient ! L'Embryon du Phoenix ! Je me demandais o\xF9 je l'avais
+    laiss\xE9 !"
   itemType: 1
   attack1:
     attackName: 
@@ -23,5 +24,5 @@ MonoBehaviour:
     attackName: 
     damage: 0
     damageMyself: 0
-  healAmount: 10
+  healAmount: 25
   itemSprite: {fileID: -4611763394334195828, guid: f214b38534bced6448a382d5551965b0, type: 3}

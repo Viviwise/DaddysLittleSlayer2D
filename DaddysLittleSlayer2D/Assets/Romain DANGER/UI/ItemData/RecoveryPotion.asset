@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: RecoveryPotion
   m_EditorClassIdentifier: Assembly-CSharp::InventoryItemData
   itemName: "Potion de r\xE9cup\xE9ration"
-  itemDescription: 
+  itemDescription: "Une potion de soin bon march\xE9. Elle fera l'affaire."
   itemType: 1
   attack1:
     attackName: 
@@ -23,5 +23,5 @@ MonoBehaviour:
     attackName: 
     damage: 0
     damageMyself: 0
-  healAmount: 5
+  healAmount: 10
   itemSprite: {fileID: -5054933557861951624, guid: 7bbd42fb7418e9846b405d1a3bd8408b, type: 3}

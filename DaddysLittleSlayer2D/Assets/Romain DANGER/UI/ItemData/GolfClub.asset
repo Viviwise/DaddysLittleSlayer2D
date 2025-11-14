@@ -13,15 +13,16 @@ MonoBehaviour:
   m_Name: GolfClub
   m_EditorClassIdentifier: Assembly-CSharp::InventoryItemData
   itemName: Club de golf
-  itemDescription: 
+  itemDescription: "Mon club de golf ! Je suis s\xFBr que cela fera une arme parfaite
+    ! "
   itemType: 0
   attack1:
     attackName: Coup droit
-    damage: 2
+    damage: 6
     damageMyself: 0
   attack2:
     attackName: Swing
-    damage: 4
-    damageMyself: 1
+    damage: 12
+    damageMyself: 3
   healAmount: 0
   itemSprite: {fileID: -5516420575179903409, guid: 9fbf1add6387029428f498ebbbf0c5d4, type: 3}

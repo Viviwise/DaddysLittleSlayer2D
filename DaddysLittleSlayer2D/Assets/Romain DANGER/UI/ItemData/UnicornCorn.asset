@@ -13,15 +13,16 @@ MonoBehaviour:
   m_Name: UnicornCorn
   m_EditorClassIdentifier: Assembly-CSharp::InventoryItemData
   itemName: "Corne de b\xE9b\xE9 Licorne"
-  itemDescription: 
+  itemDescription: "Une corne de Licorne ! Est-ce que ce ne serait pas la mienne
+    ? Je me souviens que j'en avais arrach\xE9 une il y a quelques temps !"
   itemType: 0
   attack1:
     attackName: Shlass
-    damage: 2
+    damage: 6
     damageMyself: 0
   attack2:
     attackName: Embrochement
-    damage: 5
-    damageMyself: 1
+    damage: 15
+    damageMyself: 5
   healAmount: 0
   itemSprite: {fileID: -5495199004518692878, guid: 5147ff75cedb0594fb64bb4e21e5a0fc, type: 3}

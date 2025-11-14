@@ -16,7 +16,7 @@ public class GameManager : MonoBehaviour
     public AttackRange attackRange;
 
     [Header("Battle UI")]
-    
+
     public TextMeshProUGUI dialogueText;
     public BattleHUD playerHUD;
     public BattleHUD enemyHUD;
@@ -28,16 +28,16 @@ public class GameManager : MonoBehaviour
     public GameObject mapUIPanel;
     public GameObject battleUIPanel;
 
-    
-    [Header("Loadout")] 
+
+    [Header("Loadout")]
     public PlayerLoadout playerLoadout;
 
     private bool _inBattle;
     private Unit _playerUnit;
     private Unit _currentEnemyUnit;
     private BattleState _battleState;
-    
-    
+
+
 
     void Awake()
     {
@@ -244,7 +244,7 @@ public class GameManager : MonoBehaviour
         _playerUnit.Heal(healItem.healAmount);
         playerHUD.SetPV(_playerUnit.currentPV);
 
-        dialogueText.text = "Tu utilises " + healItem.itemName + " (+"+healItem.healAmount+" PV)";
+        dialogueText.text = "Tu utilises " + healItem.itemName + " (+" + healItem.healAmount + " PV)";
 
         playerLoadout.selectedConsumables[index] = null;
         healButton.gameObject.SetActive(false);
@@ -259,7 +259,7 @@ public class GameManager : MonoBehaviour
     IEnumerator EnemyTurn()
     {
         dialogueText.text = _currentEnemyUnit.unitName + " attaque !";
-        
+
         Animator enemyAnimator = _currentEnemyUnit.GetComponent<Animator>();
         if (enemyAnimator != null)
         {
@@ -296,7 +296,7 @@ public class GameManager : MonoBehaviour
         if (won)
         {
             dialogueText.text = "Victoire ! " + _currentEnemyUnit.unitName + " vaincu !";
-            
+
             Destroy(_currentEnemyUnit.gameObject);
         }
         else
@@ -317,5 +317,5 @@ public class GameManager : MonoBehaviour
         _inBattle = false;
         _currentEnemyUnit = null;
     }
-    
+
 }
