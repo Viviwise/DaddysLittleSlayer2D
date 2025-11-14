@@ -9,6 +9,6 @@ public class HideInDeath : MonoBehaviour
         {
             gameObject.SetActive(false);
             return;
-        }
+        }   
     }
 }
