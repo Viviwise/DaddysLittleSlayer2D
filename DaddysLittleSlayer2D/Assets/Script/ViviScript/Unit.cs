@@ -14,7 +14,7 @@ public class Unit : MonoBehaviour
     public Animator animator;
 
     [Header("Equipment")]
-    public ItemData equippedItem; 
+    public InventoryItemData equippedItem; 
 
     private void Awake()
     {

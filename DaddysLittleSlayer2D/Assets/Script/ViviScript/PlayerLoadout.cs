@@ -2,5 +2,5 @@ using UnityEngine;
 
 public class PlayerLoadout : MonoBehaviour
 {
-    public ItemData[] selectedItems = new ItemData[3];
+    public InventoryItemData[] selectedItems = new InventoryItemData[3];
 }

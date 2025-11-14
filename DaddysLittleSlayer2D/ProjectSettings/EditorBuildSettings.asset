@@ -9,6 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/Scenes/ViviScene.unity
     guid: 186b9122f6c09f64c852bac6a329524f
   - enabled: 1
@@ -20,6 +21,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DeathScene.unity
     guid: 67b61b0164621c6009002b7147158aaf
+=======
+    path: Assets/Scenes/DeathScene.unity
+    guid: 7c2d45863048bd14aae2f1fce6fe2557
+  - enabled: 1
+    path: Assets/Scenes/ViviScene.unity
+    guid: 186b9122f6c09f64c852bac6a329524f
+>>>>>>> de1e57b (Inventory final)
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

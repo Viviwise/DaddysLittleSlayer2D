@@ -120,7 +120,7 @@ public class GameManager : MonoBehaviour
     {
         if (_playerUnit.equippedItem == null) return;
 
-        ItemData weapon = _playerUnit.equippedItem;
+        InventoryItemData weapon = _playerUnit.equippedItem;
 
         TextMeshProUGUI attack1Text = attack1Button.GetComponentInChildren<TextMeshProUGUI>();
         TextMeshProUGUI attack2Text = attack2Button.GetComponentInChildren<TextMeshProUGUI>();
@@ -221,7 +221,7 @@ public class GameManager : MonoBehaviour
     {
         if (_battleState != BattleState.PLAYERTURN) return;
 
-        ItemData healItem = null;
+        InventoryItemData healItem = null;
         int healIndex = -1;
 
         for (int i = 0; i < playerLoadout.selectedItems.Length; i++)
@@ -242,7 +242,7 @@ public class GameManager : MonoBehaviour
     }
 
     // ReSharper disable Unity.PerformanceAnalysis
-    IEnumerator PlayerHeal(ItemData healItem, int index)
+    IEnumerator PlayerHeal(InventoryItemData healItem, int index)
     {
         attack1Button.interactable = false;
         attack2Button.interactable = false;
