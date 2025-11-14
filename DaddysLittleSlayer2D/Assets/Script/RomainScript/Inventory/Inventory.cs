@@ -7,8 +7,8 @@ public class Inventory : MonoBehaviour
     public static Inventory Instance;
     public InventoryUI inventoryUI;
 
-    [SerializeField] public inventoryItemUI ConsumableSlot;
-    [SerializeField] public inventoryItemUI WeaponSlot;
+    [SerializeField] public InventoryItemUI ConsumableSlot;
+    [SerializeField] public InventoryItemUI WeaponSlot;
 
     public Dictionary<InventoryItemData, int> items = new();
 

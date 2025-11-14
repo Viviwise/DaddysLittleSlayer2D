@@ -132,7 +132,7 @@ public class BattleSystem : MonoBehaviour
         item2Button.gameObject.SetActive(true);
 
         bool hasHeal = false;
-        foreach (var it in playerLoadout.selectedItems)
+        foreach (var it in playerLoadout.selectedConsumables)
         {
             if (it != null && it.itemType == ItemType.Consumable)
             {
@@ -145,8 +145,8 @@ public class BattleSystem : MonoBehaviour
         TextMeshProUGUI item1Text = item1Button.GetComponentInChildren<TextMeshProUGUI>();
         TextMeshProUGUI item2Text = item2Button.GetComponentInChildren<TextMeshProUGUI>();
 
-        item1Text.text = (playerLoadout.selectedItems.Length > 0 && playerLoadout.selectedItems[0] != null) ? playerLoadout.selectedItems[0].itemName : "Vide";
-        item2Text.text = (playerLoadout.selectedItems.Length > 1 && playerLoadout.selectedItems[1] != null) ? playerLoadout.selectedItems[1].itemName : "Vide";
+        item1Text.text = (playerLoadout.selectedConsumables.Count > 0 && playerLoadout.selectedConsumables[0] != null) ? playerLoadout.selectedConsumables[0].itemName : "Vide";
+        item2Text.text = (playerLoadout.selectedConsumables.Count > 1 && playerLoadout.selectedConsumables[1] != null) ? playerLoadout.selectedConsumables[1].itemName : "Vide";
 
         selectedItemIndex = -1;
     }
@@ -158,13 +158,13 @@ public class BattleSystem : MonoBehaviour
     {
         if (state != BattleState.PLAYERTURN) return;
 
-        if (index < 0 || index >= playerLoadout.selectedItems.Length)
+        if (index < 0 || index >= playerLoadout.selectedConsumables.Count)
         {
             dialogueText.text = "Item invalide.";
             return;
         }
 
-        InventoryItemData item = playerLoadout.selectedItems[index];
+        InventoryItemData item = playerLoadout.selectedConsumables[index];
         if (item == null)
         {
             dialogueText.text = "Aucun objet à cet emplacement.";
@@ -249,7 +249,7 @@ public class BattleSystem : MonoBehaviour
             return;
         }
 
-        InventoryItemData item = playerLoadout.selectedItems[selectedItemIndex];
+        InventoryItemData item = playerLoadout.selectedConsumables[selectedItemIndex];
         if (item == null || item.attack1 == null)
         {
             dialogueText.text = "Attaque invalide.";
@@ -269,7 +269,7 @@ public class BattleSystem : MonoBehaviour
             return;
         }
 
-        InventoryItemData item = playerLoadout.selectedItems[selectedItemIndex];
+        InventoryItemData item = playerLoadout.selectedConsumables[selectedItemIndex];
         if (item == null || item.attack2 == null)
         {
             dialogueText.text = "Attaque invalide.";

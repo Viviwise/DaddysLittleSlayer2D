@@ -104,16 +104,9 @@ public class GameManager : MonoBehaviour
 
     void EquipWeaponFromLoadout()
     {
-        foreach (var item in playerLoadout.selectedItems)
-        {
-            if (item != null && item.itemType == ItemType.Weapon)
-            {
-                _playerUnit.equippedItem = item;
-                return;
-            }
-        }
+        _playerUnit.equippedItem = playerLoadout.selectedWeapon;
 
-        Debug.LogError("Aucune arme dans le loadout !");
+        //Debug.LogError("Aucune arme dans le loadout !");
     }
 
     void SetupAttackButtons()
@@ -138,7 +131,7 @@ public class GameManager : MonoBehaviour
         }
 
         bool hasHealItem = false;
-        foreach (var item in playerLoadout.selectedItems)
+        foreach (var item in playerLoadout.selectedConsumables)
         {
             if (item != null && item.itemType == ItemType.Consumable)
             {
@@ -224,9 +217,9 @@ public class GameManager : MonoBehaviour
         InventoryItemData healItem = null;
         int healIndex = -1;
 
-        for (int i = 0; i < playerLoadout.selectedItems.Length; i++)
+        for (int i = 0; i < playerLoadout.selectedConsumables.Count; i++)
         {
-            var item = playerLoadout.selectedItems[i];
+            var item = playerLoadout.selectedConsumables[i];
             if (item != null && item.itemType == ItemType.Consumable)
             {
                 healItem = item;
@@ -253,7 +246,7 @@ public class GameManager : MonoBehaviour
 
         dialogueText.text = "Tu utilises " + healItem.itemName + " (+"+healItem.healAmount+" PV)";
 
-        playerLoadout.selectedItems[index] = null;
+        playerLoadout.selectedConsumables[index] = null;
         healButton.gameObject.SetActive(false);
 
         yield return new WaitForSeconds(1.5f);

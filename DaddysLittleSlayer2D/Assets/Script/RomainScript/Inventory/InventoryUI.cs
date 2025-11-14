@@ -22,7 +22,7 @@ public class InventoryUI : MonoBehaviour
         foreach ((InventoryItemData itemPair, int quantity) in inventory.items) 
         { 
             GameObject uiItem = Instantiate(uiPrefab, transform); 
-            inventoryItemUI uiItemComponent = uiItem.GetComponent<inventoryItemUI>();
+            InventoryItemUI uiItemComponent = uiItem.GetComponent<InventoryItemUI>();
             uiItemComponent.SetReferences(itemDescriptionImage, itemDescriptionText, itemDescriptionNameText);
             uiItemComponent.SetItem(itemPair, quantity); 
         }
@@ -42,7 +42,7 @@ public class InventoryUI : MonoBehaviour
     { 
         foreach (Transform child in transform) 
         { 
-            inventoryItemUI uiItemComponent = child.GetComponent<inventoryItemUI>(); 
+            InventoryItemUI uiItemComponent = child.GetComponent<InventoryItemUI>(); 
             uiItemComponent.selectShader.SetActive(false); 
             uiItemComponent.thisItemSelected = false;
         }

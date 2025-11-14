@@ -4,7 +4,7 @@ using UnityEngine.UI;
 using UnityEngine.EventSystems;
 using System;
 using JetBrains.Annotations;
-public class inventoryItemUI : MonoBehaviour, IPointerClickHandler
+public class InventoryItemUI : MonoBehaviour, IPointerClickHandler
 {
     //=============== ITEM DATA ===============\\
 
@@ -29,6 +29,8 @@ public class inventoryItemUI : MonoBehaviour, IPointerClickHandler
     public InventoryItemData Data;
     private InventoryItemData current;
 
+    public event Action<InventoryItemData> OnItemSelected;
+
 
     public static int Length { get; private set; }
     public void SetItem(InventoryItemData itemPair, int quantity)
@@ -42,6 +44,7 @@ public class inventoryItemUI : MonoBehaviour, IPointerClickHandler
         itemImage.gameObject.SetActive(true);
         quantityText.text = quantity.ToString();
         quantityText.enabled = true;
+        OnItemSelected?.Invoke(itemPair);
     }
 
     public void SetReferences(Image itemImage, TMP_Text description, TMP_Text name)
