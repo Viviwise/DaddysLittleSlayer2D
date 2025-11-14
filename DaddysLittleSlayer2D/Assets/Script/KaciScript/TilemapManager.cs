@@ -16,7 +16,7 @@ public class TilemapManager: MonoBehaviour
     
     public GameObject player;
     public int playerRange = 3;
-    private PlayerAnimatior playerAnimController;
+    private PlayerAnimator _playerAnimController;
 
     
     public bool isInit;
@@ -75,10 +75,10 @@ public class TilemapManager: MonoBehaviour
         if (!highlightTile) throw new ArgumentNullException(nameof(highlightTile));
         if (!player) throw new ArgumentNullException(nameof(player));
         
-        playerAnimController = player.GetComponent<PlayerAnimatior>();
-        if (!playerAnimController)
+        _playerAnimController = player.GetComponent<PlayerAnimator>();
+        if (!_playerAnimController)
         {
-            playerAnimController = player.AddComponent<PlayerAnimatior>();
+            _playerAnimController = player.AddComponent<PlayerAnimator>();
         }
         InitWalkableCells();
     }
@@ -316,7 +316,7 @@ public class TilemapManager: MonoBehaviour
         return rightIndex;
     }
 
-    private void MovePlayerTo(int targetIndex)
+private void MovePlayerTo(int targetIndex)
 {
     if (!_isMoving || _isAttacking)
     {
@@ -343,66 +343,65 @@ public class TilemapManager: MonoBehaviour
     }
 
     path.Reverse();
+    
     overlayTilemap.ClearAllTiles();
-
-    Vector3 previousPosition = player.transform.position;
-
+    
     Sequence moveSequence = DOTween.Sequence();
 
-    foreach (int stepIndex in path)
+    for (int i = 0; i < path.Count - 1; i++) // ⚠️ 
     {
+        int currentStepIndex = path[i];
+        int nextStepIndex = path[i + 1]; 
+        
         Vector3 targetPosition = walkableTilemap.GetCellCenterWorld(
             new Vector3Int(
-                stepIndex % width + bounds.xMin,
-                stepIndex / width + bounds.yMin,
+                nextStepIndex % width + bounds.xMin,
+                nextStepIndex / width + bounds.yMin,
                 0
             )
         );
 
-
-        Vector3 startPos = previousPosition;
-        Vector3 endPos = targetPosition;
-
+        int currentX = currentStepIndex % width;
+        int currentY = currentStepIndex / width;
+        int nextX = nextStepIndex % width;
+        int nextY = nextStepIndex / width;
+        
+        int deltaX = nextX - currentX;
+        int deltaY = nextY - currentY;
+        
         moveSequence.Append(
             player.transform.DOMove(targetPosition, 0.3f)
                 .SetEase(Ease.Linear)
                 .OnStart(() =>
                 {
-                    Vector3 direction = (endPos - startPos).normalized;
-            
-                    Debug.Log($"🎯 Déplacement de {startPos} → {endPos}");
-                    Debug.Log($"📐 Direction normalisée: {direction}");
-            
-                    PlayerAnimatior.instance?.SetMovementDirection(direction);
+                    Vector2 gridDirection = new Vector2(deltaX, deltaY);
+
+                    if (gridDirection.sqrMagnitude > 0.0001f)
+                    {
+                        gridDirection.Normalize();
+                        
+                        PlayerAnimator.instance?.SetMovementDirection(gridDirection);
+                    }
                 })
         );
-
-
-        previousPosition = targetPosition;
     }
 
     moveSequence.OnComplete(() =>
     {
-        if (PlayerAnimatior.instance != null)
-        {
-            PlayerAnimatior.instance.StopAnimation();
-        }
+        PlayerAnimator.instance?.StopAnimation();
     });
+
+    moveSequence.Play();
 }
 
-
-    
     public void DrawHighlight(int index, int value)
     {
-        Debug.Log($"DrawHighlight {index} ; {value}");
         
         if (!IsValidIndex(index)) return;
         
-        Debug.Log($"DrawHighlight {index} ok");
         var highlightTiles = GetHighlightTiles();
         var tile = highlightTiles[value % highlightTiles.Length];
         
-        Debug.Log($"DrawHighlight {tile} tile");
         overlayTilemap.SetTile(GetTilePos(index), tile);
         
     }
