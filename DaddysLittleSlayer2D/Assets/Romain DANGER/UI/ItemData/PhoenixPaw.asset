@@ -10,18 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 67f799749f570a847a3d4b1c0fa80918, type: 3}
-  m_Name: NewItem
+  m_Name: PhoenixPaw
   m_EditorClassIdentifier: Assembly-CSharp::InventoryItemData
-  itemName: Carotte
-  itemDescription: fmjhjiosniuf
+  itemName: Patte de Phoenix
+  itemDescription: 
   itemType: 0
   attack1:
-    attackName: 
-    damage: 0
+    attackName: Gratte gratte
+    damage: 2
     damageMyself: 0
   attack2:
-    attackName: 
-    damage: 0
-    damageMyself: 0
-  healAmount: 5
-  itemSprite: {fileID: 372150800207032378, guid: bb4252fbf71bdc84d8ccfe297f4dcc9c, type: 3}
+    attackName: Napalm
+    damage: 7
+    damageMyself: 2
+  healAmount: 0
+  itemSprite: {fileID: 439945048879126868, guid: 6596239cf310ae34ca1357bb97ccf64f, type: 3}

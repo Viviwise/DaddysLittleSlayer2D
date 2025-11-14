@@ -2,10 +2,9 @@ using UnityEngine;
 
 public class PlayerLoadout : MonoBehaviour
 {
-    public InventoryItemData[] selectedItems = new InventoryItemData[2];
-    
-    public void Sync(InventoryItemData Data)
+    public InventoryItemData[] selectedItems = new InventoryItemData[1];
+    public void Sync()
     {
-        InventoryItemData itemToEquip = Data;
+        Inventory.Instance.WeaponSlot.Data = selectedItems[0];
     }
 }
